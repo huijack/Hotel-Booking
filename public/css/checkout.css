@@ -1,0 +1,1394 @@
+.vector-icon14 {
+    width: 15px;
+    height: 15px;
+    position: relative;
+  }
+  .telephonefill4 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15px;
+    height: 15px;
+  }
+  .div5 {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .telephonefill-container {
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 5px;
+  }
+  .mailbox-icon4 {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 15px;
+  }
+  .infosierragmailcom8 {
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .frame-parent26,
+  .mailbox-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 5px;
+  }
+  .frame-parent26 {
+    gap: 0 35px;
+    max-width: 100%;
+  }
+  .log-in4 {
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .frame-parent25 {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-smi) var(--padding-20xl) var(--padding-sm);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .sierra-hotel-logo8 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: var(--color-black);
+    text-align: center;
+  }
+  .sierra-hotel-logo-wrapper1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
+      var(--padding-20xl);
+    background-color: var(--color-olivedrab);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .contacts-and-email-frame:hover,
+  .dates-accommodation-input:hover,
+  .sierra-hotel-logo-wrapper1:hover,
+  .sierra-hotel-logo-wrapper2:hover {
+    background-color: var(--color-forestgreen);
+  }
+  .home8,
+  .rooms6 {
+    position: relative;
+    font-weight: 500;
+  }
+  .about-us8 {
+    white-space: nowrap;
+  }
+  .about-us8,
+  .contact7 {
+    position: relative;
+    font-weight: 500;
+  }
+  .home-group {
+    width: 427px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 0;
+    box-sizing: border-box;
+    gap: 0 50px;
+    max-width: 100%;
+  }
+  .search4 {
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .search4,
+  .vector-icon15 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+  }
+  .book-now11 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    font-family: var(--font-work-sans);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .dates-accommodation-input,
+  .vector-parent6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .dates-accommodation-input {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) var(--padding-2xl) var(--padding-3xs)
+      var(--padding-5xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-81xl);
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .vector-parent6 {
+    width: 192px;
+    justify-content: flex-start;
+    gap: 0 33px;
+  }
+  .frame-parent24,
+  .frame-parent27 {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .frame-parent27 {
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-xl) var(--padding-21xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-600);
+  }
+  .frame-parent24 {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-work-sans);
+  }
+  .billing-details {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .span3 {
+    color: var(--color-crimson);
+  }
+  .first-name {
+    position: relative;
+    white-space: nowrap;
+  }
+  .span4 {
+    color: var(--color-crimson);
+  }
+  .first-name1 {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    margin-left: -119px;
+  }
+  .firstnameinput,
+  .firstnameinput1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .firstnameinput {
+    padding: 0 var(--padding-8xs);
+  }
+  .frame-child15,
+  .frame-child16 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .frame-child15,
+  .frame-child16,
+  .rectangle-parent7,
+  .rectangle-wrapper {
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .rectangle-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .rectangle-parent7 {
+    height: 60px;
+    flex: 1;
+    position: relative;
+  }
+  .inputframes-inner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-6xl);
+  }
+  .company-name,
+  .company-name1 {
+    position: relative;
+  }
+  .company-name1 {
+    z-index: 1;
+    margin-left: -154px;
+  }
+  .company-name-parent {
+    flex-direction: row;
+  }
+  .company-name-parent,
+  .firstnameinput2,
+  .inputframes4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .firstnameinput2 {
+    flex-direction: row;
+    padding: 0 var(--padding-8xs);
+  }
+  .inputframes4 {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px 0;
+    min-width: 193px;
+  }
+  .span5 {
+    color: var(--color-crimson);
+  }
+  .last-name {
+    position: relative;
+    white-space: nowrap;
+  }
+  .span6 {
+    color: var(--color-crimson);
+  }
+  .last-name1 {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    margin-left: -117px;
+  }
+  .last-name-parent,
+  .lastnameframes1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .lastnameframes1 {
+    padding: 0 var(--padding-8xs);
+  }
+  .frame-child17,
+  .frame-child18 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .frame-child17,
+  .frame-child18,
+  .rectangle-frame,
+  .rectangle-parent8 {
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .rectangle-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .rectangle-parent8 {
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+  }
+  .inputframes3,
+  .lastnameframes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .lastnameframes {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px 0;
+    min-width: 193px;
+  }
+  .inputframes3 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 66px;
+  }
+  .room-input-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .first-name-input,
+  .room-input,
+  .room-input-child {
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .first-name-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .room-input {
+    height: 60px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .address-input,
+  .postcode-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .postcode-box {
+    flex: 1;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .address-input {
+    align-self: stretch;
+  }
+  .span7 {
+    color: var(--color-crimson);
+  }
+  .country {
+    position: relative;
+    white-space: nowrap;
+  }
+  .country-region {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .arrow-down-short-icon-child {
+    height: 60px;
+    width: 661px;
+    position: relative;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .arrowdownshort-icon3 {
+    height: 38px;
+    width: 38px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .arrow-down-short-icon {
+    flex: 1;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: var(--padding-2xs) var(--padding-3xl);
+    max-width: 100%;
+  }
+  .country-dropdown,
+  .full-name-group {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .country-dropdown {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .full-name-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .span8 {
+    color: var(--color-crimson);
+  }
+  .street-address {
+    position: relative;
+    white-space: nowrap;
+  }
+  .span9 {
+    color: var(--color-crimson);
+  }
+  .street-address1 {
+    position: relative;
+    white-space: nowrap;
+    z-index: 1;
+    margin-left: -157px;
+  }
+  .bill-details-frame,
+  .room-number-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .room-number-input {
+    padding: 0 var(--padding-8xs);
+  }
+  .total-amount-label-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .button-frame,
+  .total-amount-label,
+  .total-amount-label-child {
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+  }
+  .button-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .total-amount-label {
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+  }
+  .street-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .apartment-suite-unit {
+    width: 358px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-work-sans);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 23px;
+    position: relative;
+    color: var(--color-gray-600);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .apartment-suite-unit1 {
+    position: relative;
+    margin-left: -358px;
+  }
+  .apt-suite-input {
+    flex: 1;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) var(--padding-6xl) var(--padding-mid);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .address-fields-group,
+  .submit-order-btn {
+    align-self: stretch;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .submit-order-btn {
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-gray-600);
+  }
+  .address-fields-group {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xs);
+    gap: 20px 0;
+  }
+  .span10 {
+    color: var(--color-crimson);
+  }
+  .postcode-zip-container {
+    position: relative;
+    white-space: nowrap;
+  }
+  .postcode-zip-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .frame-child19 {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .full-name-group-inner,
+  .full-name-group1 {
+    align-self: stretch;
+    display: flex;
+    max-width: 100%;
+  }
+  .full-name-group-inner {
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .full-name-group1 {
+    height: 93px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .span11 {
+    color: var(--color-crimson);
+  }
+  .province {
+    position: relative;
+    white-space: nowrap;
+  }
+  .province-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .frame-child20 {
+    height: 60px;
+    width: 661px;
+    position: relative;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .arrowdownshort-icon4 {
+    height: 38px;
+    width: 38px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .full-name-group-child,
+  .rectangle-parent9 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangle-parent9 {
+    flex: 1;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    justify-content: flex-end;
+    padding: var(--padding-2xs) var(--padding-3xl);
+  }
+  .full-name-group-child {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-4xs) 0 0;
+  }
+  .billing-frame,
+  .full-name-group2,
+  .inputframes2,
+  .last-name-input {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+    max-width: 100%;
+  }
+  .billing-frame,
+  .inputframes2,
+  .last-name-input {
+    gap: 35px 0;
+  }
+  .inputframes2 {
+    gap: 10px 0;
+  }
+  .span12 {
+    color: var(--color-crimson);
+  }
+  .phone-number {
+    position: relative;
+    white-space: nowrap;
+  }
+  .your-order-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .phone-email-group-child {
+    border: 4px solid var(--color-black);
+    outline: 0;
+    background-color: transparent;
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+    border-radius: var(--br-base);
+    box-sizing: border-box;
+    min-width: 178px;
+  }
+  .phone-email-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+    min-width: 193px;
+  }
+  .span13 {
+    color: var(--color-crimson);
+  }
+  .email-address {
+    position: relative;
+    white-space: nowrap;
+  }
+  .email-address-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .phone-email-group-item {
+    border: 4px solid var(--color-black);
+    outline: 0;
+    background-color: transparent;
+    align-self: stretch;
+    height: 60px;
+    position: relative;
+    border-radius: var(--br-base);
+    box-sizing: border-box;
+    min-width: 178px;
+  }
+  .phone-email-group1 {
+    flex: 1;
+    flex-direction: column;
+    gap: 10px 0;
+    min-width: 193px;
+  }
+  .checkout-frame,
+  .inputframes,
+  .inputframes1,
+  .phone-email-group1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .checkout-frame {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 0 66px;
+  }
+  .inputframes,
+  .inputframes1 {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .inputframes1 {
+    align-self: stretch;
+    gap: 35px 0;
+    font-size: var(--font-size-xl);
+  }
+  .inputframes {
+    flex: 1;
+    gap: 45px 0;
+    min-width: 435px;
+  }
+  .your-order {
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+  }
+  .product,
+  .total,
+  .your-order {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .payment-form-frame {
+    align-self: stretch;
+    border-top: 0.5px solid var(--color-gray-200);
+    border-bottom: 1px solid var(--color-gray-200);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xl) 0;
+    gap: 0 408px;
+  }
+  .accommodation,
+  .dates,
+  .room-reservation {
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .accommodation,
+  .dates {
+    font-weight: 600;
+  }
+  .order-summary-frame,
+  .total-cost-rect {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px 0;
+  }
+  .total-cost-rect {
+    align-self: stretch;
+    border-bottom: 1px solid var(--color-gray-200);
+    overflow: hidden;
+    padding: var(--padding-xl) 0 36px;
+    gap: 25px 0;
+  }
+  .new-order-button,
+  .total1 {
+    display: flex;
+    align-items: center;
+  }
+  .total1 {
+    width: 79px;
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    font-family: var(--font-work-sans);
+    font-size: var(--font-size-13xl);
+    background-color: transparent;
+    height: 38px;
+    position: relative;
+    text-transform: capitalize;
+    color: var(--color-black);
+    text-align: left;
+  }
+  .new-order-button {
+    align-self: stretch;
+    border-bottom: 0.5px solid var(--color-gray-200);
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: var(--padding-22xl) 0;
+  }
+  .dates-accommodation {
+    font-size: var(--font-size-xl);
+  }
+  .add-info-frame,
+  .dates-accommodation,
+  .notes-for-del-text {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .notes-for-del-text {
+    gap: 18px 0;
+    font-size: var(--font-size-5xl);
+  }
+  .add-info-frame {
+    gap: 40px 0;
+  }
+  .submit-order {
+    position: relative;
+    font-size: var(--font-size-xl);
+    text-transform: capitalize;
+    font-family: var(--font-work-sans);
+    color: var(--color-white);
+    text-align: left;
+  }
+  .contacts-and-email-frame {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mini) var(--padding-5xs) var(--padding-mini)
+      var(--padding-mini);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+  }
+  .companynameframe,
+  .submit-order-text {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .submit-order-text {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px 0;
+    min-width: 429px;
+  }
+  .companynameframe {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0 90px;
+  }
+  .additional-information {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .order-notes {
+    position: relative;
+  }
+  .additional-info-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs);
+  }
+  .notes-about-your {
+    width: 531px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-work-sans);
+    font-size: var(--font-size-xl);
+    background-color: transparent;
+    height: 23px;
+    position: relative;
+    color: var(--color-gray-600);
+    text-align: left;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
+  .follow-us-label,
+  .notes-group {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .notes-group {
+    flex: 1;
+    border-radius: var(--br-base);
+    border: 4px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-6xl);
+  }
+  .follow-us-label {
+    height: 138px;
+    flex-direction: column;
+    gap: 10px 0;
+    font-size: var(--font-size-xl);
+  }
+  .additional-information-parent {
+    width: 661px;
+    flex-direction: column;
+    gap: 30px 0;
+  }
+  .additional-information-parent,
+  .billingdetailsframe,
+  .firstnameframe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .firstnameframe {
+    flex: 1;
+    flex-direction: column;
+    gap: 53px 0;
+  }
+  .billingdetailsframe {
+    width: 1500px;
+    flex-direction: row;
+    padding: 0 var(--padding-41xl) var(--padding-38xl) var(--padding-xl);
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-black);
+    font-family: var(--font-work-sans);
+  }
+  .infosierra-email-child {
+    height: 500px;
+    width: 1680px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+  }
+  .sierra-hotel-logo9 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: var(--color-black);
+    text-align: center;
+  }
+  .sierra-hotel-logo-wrapper2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
+      var(--padding-20xl);
+    background-color: var(--color-olivedrab);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .follow-us5 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .vector-vector-icon,
+  .vector-vector-icon1 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    min-height: 40px;
+    z-index: 1;
+  }
+  .room-reservation-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 20px;
+  }
+  .follow-us-group {
+    gap: 20px 0;
+  }
+  .address-text,
+  .follow-us-group,
+  .frame-parent28 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent28 {
+    gap: 49px 0;
+  }
+  .address-text {
+    height: 287px;
+    padding: 0 var(--padding-xs) 0 0;
+    box-sizing: border-box;
+  }
+  .contacts4 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .email-contact-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .email-group-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .infosierra-logo {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .contact-info2,
+  .contacts-group {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .contact-info2 {
+    flex-direction: row;
+    align-items: center;
+    gap: 0 16px;
+    font-size: var(--font-size-xl);
+  }
+  .contacts-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px 0;
+  }
+  .email5 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .email-wrapper3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .vector-icon16 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  .infosierragmailcom9 {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .vector-parent7 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 15px;
+    font-size: var(--font-size-xl);
+  }
+  .contacts-group1,
+  .infosierragmailcom-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px 0;
+  }
+  .infosierragmailcom-text {
+    gap: 40px 0;
+  }
+  .address4,
+  .no-1-ucsi4 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .no-1-ucsi4 {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    text-align: justify;
+  }
+  .address-field,
+  .contacts-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .address-field {
+    align-self: stretch;
+    gap: 26px 0;
+  }
+  .contacts-frame {
+    width: 400px;
+    min-height: 198px;
+    max-width: 100%;
+  }
+  .infosierra-email {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-87xl) var(--padding-124xl) var(--padding-88xl)
+      var(--padding-126xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-work-sans);
+  }
+  .checkout {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 116px 0;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1275px) {
+    .billingdetailsframe {
+      padding-right: var(--padding-11xl);
+      padding-bottom: var(--padding-18xl);
+      box-sizing: border-box;
+    }
+    .contacts-frame {
+      min-height: auto;
+    }
+    .infosierra-email {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .infosierra-email {
+      padding-left: var(--padding-53xl);
+      padding-right: var(--padding-52xl);
+      box-sizing: border-box;
+    }
+    .checkout {
+      gap: 116px 0;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .billing-details {
+      font-size: var(--font-size-19xl);
+    }
+    .inputframes3 {
+      flex-wrap: wrap;
+      gap: 0 66px;
+    }
+    .billing-frame,
+    .last-name-input {
+      gap: 35px 0;
+    }
+    .checkout-frame {
+      flex-wrap: wrap;
+      gap: 0 66px;
+    }
+    .inputframes1 {
+      gap: 35px 0;
+    }
+    .inputframes {
+      gap: 45px 0;
+      min-width: 100%;
+    }
+    .your-order {
+      font-size: var(--font-size-19xl);
+    }
+    .payment-form-frame {
+      flex-wrap: wrap;
+      gap: 0 408px;
+    }
+    .total1 {
+      font-size: var(--font-size-7xl);
+    }
+    .add-info-frame {
+      gap: 40px 0;
+    }
+    .submit-order-text {
+      gap: 48px 0;
+      min-width: 100%;
+    }
+    .companynameframe {
+      gap: 0 90px;
+    }
+    .additional-information {
+      font-size: var(--font-size-19xl);
+    }
+    .firstnameframe {
+      gap: 53px 0;
+    }
+    .billingdetailsframe,
+    .infosierra-email {
+      padding-bottom: var(--padding-5xl);
+      box-sizing: border-box;
+    }
+    .infosierra-email {
+      padding-top: var(--padding-50xl);
+      padding-bottom: var(--padding-51xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .frame-parent26 {
+      gap: 0 35px;
+    }
+    .home-group {
+      gap: 0 50px;
+    }
+    .billing-details {
+      font-size: var(--font-size-10xl);
+    }
+    .company-name,
+    .company-name1,
+    .first-name,
+    .first-name1,
+    .last-name,
+    .last-name1 {
+      font-size: var(--font-size-base);
+    }
+    .inputframes3 {
+      gap: 0 66px;
+    }
+    .apartment-suite-unit,
+    .apartment-suite-unit1,
+    .country,
+    .email-address,
+    .phone-number,
+    .postcode-zip-container,
+    .province,
+    .street-address,
+    .street-address1 {
+      font-size: var(--font-size-base);
+    }
+    .checkout-frame {
+      gap: 0 66px;
+    }
+    .your-order {
+      font-size: var(--font-size-10xl);
+    }
+    .product,
+    .total {
+      font-size: var(--font-size-lgi);
+    }
+    .payment-form-frame {
+      gap: 0 408px;
+    }
+    .accommodation,
+    .dates,
+    .room-reservation {
+      font-size: var(--font-size-base);
+    }
+    .total1 {
+      font-size: var(--font-size-lgi);
+    }
+    .companynameframe {
+      gap: 0 90px;
+    }
+    .additional-information {
+      font-size: var(--font-size-10xl);
+    }
+    .notes-about-your,
+    .order-notes {
+      font-size: var(--font-size-base);
+    }
+    .frame-parent28 {
+      gap: 49px 0;
+    }
+    .infosierra-logo,
+    .infosierragmailcom9 {
+      font-size: var(--font-size-base);
+    }
+    .infosierragmailcom-text {
+      gap: 40px 0;
+    }
+    .no-1-ucsi4 {
+      font-size: var(--font-size-base);
+    }
+    .infosierra-email {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .checkout {
+      gap: 116px 0;
+    }
+  }

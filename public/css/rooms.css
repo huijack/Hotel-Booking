@@ -1,0 +1,1730 @@
+.vector-line-icon {
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+.telephonefill1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 15px;
+    height: 15px;
+}
+.log-in-sign {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+}
+.f-r-a-m-e-b {
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 5px;
+}
+.mailbox-icon1 {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 15px;
+}
+.infosierragmailcom2 {
+    position: relative;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.f-r-a-m-e-a,
+.frame-home-rooms {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 5px;
+}
+.f-r-a-m-e-a {
+    gap: 0 35px;
+    max-width: 100%;
+}
+.log-in1 {
+    position: relative;
+    font-weight: 500;
+}
+.frame-parent1 {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: var(--padding-smi) var(--padding-20xl) var(--padding-sm);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+}
+.sierra-hotel-logo2 {
+    position: relative;
+    font-weight: 500;
+}
+.s-i-e-r-r-a-logo {
+    background-color: var(--color-olivedrab);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
+        var(--padding-20xl);
+    white-space: nowrap;
+}
+.home2,
+.rooms2 {
+    position: relative;
+    font-weight: 500;
+}
+.rooms2 {
+    color: var(--color-black);
+}
+.about-us2 {
+    white-space: nowrap;
+}
+.about-us2,
+.contact1 {
+    position: relative;
+    font-weight: 500;
+}
+.address-block {
+    width: 427px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-smi) 0 0;
+    box-sizing: border-box;
+    gap: 0 50px;
+    max-width: 100%;
+    color: var(--color-gray-600);
+}
+.search1 {
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+}
+.container-parent-icon,
+.search1 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+.book-now2 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    font-family: var(--font-work-sans);
+    color: var(--color-white);
+    text-align: left;
+}
+.button-group,
+.jalan-puncak-menara-gading-t-l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) var(--padding-2xl) var(--padding-3xs)
+        var(--padding-5xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-81xl);
+    justify-content: center;
+    white-space: nowrap;
+}
+.book-now-button1:hover,
+.book-now-container:hover,
+.book-now-frame:hover,
+.book-now-wrapper1:hover,
+.book-now-wrapper2:hover,
+.book-now-wrapper:hover,
+.button-group:hover,
+.header-frame2:hover {
+    background-color: var(--color-forestgreen);
+}
+.jalan-puncak-menara-gading-t-l {
+    width: 192px;
+    justify-content: flex-start;
+    gap: 0 33px;
+}
+.room-type-container {
+    align-self: stretch;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--padding-xl) var(--padding-21xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--color-black);
+    font-family: var(--font-work-sans);
+}
+.roomimagecontainer-child {
+    width: 1680px;
+    height: 413px;
+    position: relative;
+    background-color: var(--color-darkolivegreen);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+}
+.image-7-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.our-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+}
+.home3 {
+    font-weight: 600;
+}
+.rooms3,
+.span {
+    font-weight: 500;
+}
+.home-rooms-container {
+    margin: 0;
+    height: 28px;
+    position: relative;
+    font-size: var(--font-size-5xl);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    font-family: inherit;
+}
+.contact-email-section,
+.roomimagecontainer {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.roomimagecontainer {
+    flex: 1;
+    background-color: var(--color-darkolivegreen);
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-135xl) var(--padding-xl) var(--padding-134xl);
+    position: relative;
+    gap: 5px 0;
+}
+.contact-email-section {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-146xl);
+    text-align: center;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-work-sans);
+}
+.frame-icon {
+    align-self: stretch;
+    height: 240px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.standard-room1 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm2001 {
+    white-space: nowrap;
+}
+.day1,
+.rm2001 {
+    position: relative;
+    font-weight: 500;
+}
+.capacityselection,
+.roomtypeday {
+    display: flex;
+    justify-content: flex-start;
+}
+.roomtypeday {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.capacityselection {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size2 {
+    align-self: stretch;
+}
+.capacity2,
+.size2 {
+    position: relative;
+    font-weight: 500;
+}
+.bed2 {
+    align-self: stretch;
+}
+.bed2,
+.services2 {
+    position: relative;
+    font-weight: 500;
+}
+.size-group {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft1,
+.king-bed,
+.person2,
+.wifi-televion-bathroom1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.ft-group,
+.roomdetails {
+    display: flex;
+    justify-content: flex-start;
+}
+.ft-group {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-3xs) var(--padding-10xs) var(--padding-3xs)
+        var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.roomdetails {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.book-now3 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-button1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-13xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.room-selection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-4xs);
+}
+.roomdetails-parent,
+.sizeoptions,
+.standard-room-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.roomdetails-parent {
+    align-self: stretch;
+    align-items: center;
+    gap: 35px 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.sizeoptions,
+.standard-room-group {
+    align-items: flex-start;
+}
+.sizeoptions {
+    align-self: stretch;
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.standard-room-group {
+    width: 339px;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+    max-width: 100%;
+}
+.frame-child5,
+.frame-parent2 {
+    max-width: 100%;
+    overflow: hidden;
+}
+.frame-parent2 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-28xl);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.frame-child5 {
+    height: 240px;
+    flex: 1;
+    position: relative;
+    object-fit: cover;
+}
+.frame-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.deluxe-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm350 {
+    white-space: nowrap;
+}
+.day2,
+.rm350 {
+    position: relative;
+    font-weight: 500;
+}
+.day-wrapper,
+.rm350-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+.day-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.rm350-parent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size3 {
+    align-self: stretch;
+}
+.capacity3,
+.size3 {
+    position: relative;
+    font-weight: 500;
+}
+.bed3 {
+    align-self: stretch;
+}
+.bed3,
+.services3 {
+    position: relative;
+    font-weight: 500;
+}
+.size-container {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft2,
+.person3,
+.queen-bed,
+.wifi-televion-bathroom2 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.frame-parent6,
+.ft-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.ft-container {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--padding-3xs) var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.frame-parent6 {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.book-now4 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.frame-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-4xs);
+}
+.deluxe-room-parent,
+.frame-parent4,
+.frame-parent5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.frame-parent5 {
+    align-self: stretch;
+    align-items: center;
+    gap: 35px 0;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.deluxe-room-parent,
+.frame-parent4 {
+    align-items: flex-start;
+}
+.frame-parent4 {
+    align-self: stretch;
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.deluxe-room-parent {
+    width: 339px;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+    max-width: 100%;
+}
+.frame-child6,
+.frame-parent3 {
+    max-width: 100%;
+    overflow: hidden;
+}
+.frame-parent3 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-28xl);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.frame-child6 {
+    align-self: stretch;
+    height: 240px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.family-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm450 {
+    white-space: nowrap;
+}
+.day3,
+.rm450 {
+    position: relative;
+    font-weight: 500;
+}
+.day-container,
+.rm450-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+.day-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.rm450-parent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size4 {
+    align-self: stretch;
+}
+.capacity4,
+.size4 {
+    position: relative;
+    font-weight: 500;
+}
+.bed4 {
+    align-self: stretch;
+}
+.bed4,
+.services4 {
+    position: relative;
+    font-weight: 500;
+}
+.size-parent1 {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft3,
+.person4,
+.queen-beds,
+.wifi-televion-bathroom3 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.ft-parent1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.frame-parent8,
+.frame-parent9 {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame-parent9 {
+    flex-direction: row;
+    row-gap: 20px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.frame-parent8 {
+    flex-direction: column;
+    padding: 0 0 var(--padding-xl);
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.book-now5 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-container {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.family-room-parent,
+.floor-plan-preview {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-51xl) 0 79px;
+}
+.family-room-parent {
+    width: 339px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 15px 0;
+    max-width: 100%;
+}
+.frame-child7,
+.frame-parent7 {
+    max-width: 100%;
+    overflow: hidden;
+}
+.frame-parent7 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-28xl) var(--padding-12xs);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.frame-child7 {
+    align-self: stretch;
+    height: 240px;
+    position: relative;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.seaside-view-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm340 {
+    white-space: nowrap;
+}
+.day4,
+.rm340 {
+    position: relative;
+    font-weight: 500;
+}
+.kingbed,
+.wifitelevisionbathroom {
+    display: flex;
+    justify-content: flex-start;
+}
+.wifitelevisionbathroom {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.kingbed {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size5 {
+    align-self: stretch;
+}
+.capacity5,
+.size5 {
+    position: relative;
+    font-weight: 500;
+}
+.bed5 {
+    align-self: stretch;
+}
+.bed5,
+.services5 {
+    position: relative;
+    font-weight: 500;
+}
+.capacitylabel {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft4,
+.king-bed1,
+.person5,
+.wifi-televion-bathroom4 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.frame-container1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-10xs) var(--padding-3xs)
+        var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.campingroom,
+.sizelabel,
+.treetopviewroom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.sizelabel {
+    align-self: stretch;
+    flex-direction: row;
+    row-gap: 20px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.campingroom,
+.treetopviewroom {
+    flex-direction: column;
+}
+.treetopviewroom {
+    width: 299px;
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.campingroom {
+    gap: 15px 0;
+}
+.book-now6 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-frame {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-13xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.campingroom-parent,
+.frame-wrapper3 {
+    display: flex;
+    justify-content: flex-start;
+}
+.frame-wrapper3 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-11xs);
+}
+.campingroom-parent {
+    flex-direction: column;
+    align-items: center;
+    gap: 35px 0;
+}
+.frame-parent10,
+.frame-wrapper2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.frame-parent10 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 var(--padding-28xl);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.frame-child8 {
+    height: 240px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.frame-wrapper4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.treetop-view-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm3401 {
+    white-space: nowrap;
+}
+.day5,
+.rm3401 {
+    position: relative;
+    font-weight: 500;
+}
+.day-frame,
+.rm340-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+.day-frame {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.rm340-parent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size6 {
+    align-self: stretch;
+}
+.capacity6,
+.size6 {
+    position: relative;
+    font-weight: 500;
+}
+.bed6 {
+    align-self: stretch;
+}
+.bed6,
+.services6 {
+    position: relative;
+    font-weight: 500;
+}
+.size-parent2 {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft5,
+.king-bed2,
+.person6,
+.wifi-televion-bathroom5 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.ft-parent2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.frame-parent13,
+.frame-parent14,
+.treetop-view-room-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.frame-parent14 {
+    flex-direction: row;
+    row-gap: 20px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.frame-parent13,
+.treetop-view-room-parent {
+    flex-direction: column;
+}
+.frame-parent13 {
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.treetop-view-room-parent {
+    gap: 15px 0;
+}
+.book-now7 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-wrapper1 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.frame-parent12,
+.frame-wrapper6 {
+    display: flex;
+    justify-content: flex-start;
+}
+.frame-wrapper6 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-10xs);
+}
+.frame-parent12 {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px 0;
+}
+.frame-parent11,
+.frame-wrapper5 {
+    width: 351px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 var(--padding-7xl);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.frame-parent11 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 var(--padding-28xl);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.frame-child9 {
+    align-self: stretch;
+    height: 240px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.camping-room {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+}
+.rm3501 {
+    white-space: nowrap;
+}
+.day6,
+.rm3501 {
+    position: relative;
+    font-weight: 500;
+}
+.capacity-label,
+.rm350-group {
+    display: flex;
+    justify-content: flex-start;
+}
+.capacity-label {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-9xs);
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+}
+.rm350-group {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0 5px;
+}
+.size7 {
+    align-self: stretch;
+}
+.capacity7,
+.size7 {
+    position: relative;
+    font-weight: 500;
+}
+.bed7 {
+    align-self: stretch;
+}
+.bed7,
+.services7 {
+    position: relative;
+    font-weight: 500;
+}
+.bed-type-label {
+    width: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 76px;
+}
+.ft6,
+.person7,
+.queen-bed1,
+.wifi-televion-bathroom6 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+}
+.contact-email-icon {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) var(--padding-11xs);
+    box-sizing: border-box;
+    gap: 18px 0;
+    opacity: 0.7;
+    min-width: 145px;
+}
+.camping-room-parent,
+.frame-parent17,
+.services-label {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.services-label {
+    flex-direction: row;
+    row-gap: 20px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+}
+.camping-room-parent,
+.frame-parent17 {
+    flex-direction: column;
+}
+.frame-parent17 {
+    gap: 10px 0;
+    font-size: var(--font-size-5xl);
+    color: var(--color-olivedrab);
+}
+.camping-room-parent {
+    gap: 15px 0;
+}
+.book-now8 {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: center;
+}
+.book-now-wrapper2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-sm) var(--padding-11xl) var(--padding-sm)
+        var(--padding-16xl);
+    background-color: var(--color-olivedrab);
+    border-radius: var(--br-7xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.frame-wrapper7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-4xs);
+}
+.frame-parent16 {
+    width: 339px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+    gap: 35px 0;
+}
+.frame-parent15,
+.frame-parent16,
+.framegroup {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.frame-parent15 {
+    width: 366px;
+    border: 1px solid var(--color-gray-300);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-28xl) var(--padding-12xs);
+    gap: 20px 0;
+    min-width: 146px;
+}
+.framegroup {
+    width: 1219px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 234px;
+    gap: 60px 35.05px;
+    min-height: 1554px;
+    text-align: center;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-work-sans);
+}
+.contact-info-child {
+    height: 500px;
+    width: 1680px;
+    position: relative;
+    background-color: var(--color-gray-100);
+    display: none;
+    max-width: 100%;
+}
+.sierra-hotel-logo3 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: var(--color-black);
+    text-align: center;
+}
+.header-frame2 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
+        var(--padding-20xl);
+    background-color: var(--color-olivedrab);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+}
+.follow-us2 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+}
+.vector-icon4,
+.vector-icon5 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    min-height: 40px;
+    z-index: 1;
+}
+.vector-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 20px;
+}
+.follow-frame {
+    gap: 20px 0;
+}
+.company-logo,
+.contacts-and-email,
+.follow-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.contacts-and-email {
+    gap: 49px 0;
+}
+.company-logo {
+    height: 287px;
+    padding: 0 var(--padding-xs) 0 0;
+    box-sizing: border-box;
+}
+.contacts1 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+}
+.contacts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+}
+.vector-two-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+}
+.info-email-address {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+}
+.contact-container,
+.email-icon {
+    display: flex;
+    justify-content: flex-start;
+}
+.email-icon {
+    flex-direction: row;
+    align-items: center;
+    gap: 0 16px;
+    font-size: var(--font-size-xl);
+}
+.contact-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px 0;
+}
+.email1 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+}
+.email-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+}
+.vector-icon6 {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    z-index: 1;
+}
+.infosierragmailcom3 {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+    z-index: 1;
+}
+.vector-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 15px;
+    font-size: var(--font-size-xl);
+}
+.contact-container1,
+.vector-frames {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px 0;
+}
+.vector-frames {
+    gap: 40px 0;
+}
+.address1,
+.no-1-ucsi1 {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+}
+.no-1-ucsi1 {
+    align-self: stretch;
+    font-size: var(--font-size-xl);
+    text-align: justify;
+}
+.address-frame2,
+.no-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.no-label {
+    align-self: stretch;
+    gap: 26px 0;
+}
+.address-frame2 {
+    width: 400px;
+    min-height: 198px;
+    max-width: 100%;
+}
+.contact-info,
+.rooms1 {
+    overflow: hidden;
+    display: flex;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-work-sans);
+}
+.contact-info {
+    align-self: stretch;
+    background-color: var(--color-gray-100);
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-87xl) var(--padding-124xl) var(--padding-88xl)
+        var(--padding-126xl);
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+    max-width: 100%;
+    text-align: left;
+}
+.rooms1 {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: normal;
+    text-align: center;
+}
+@media screen and (max-width: 1275px) {
+    .address-frame2 {
+        min-height: auto;
+    }
+    .contact-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .address-block {
+        display: none;
+    }
+    .framegroup {
+        padding-bottom: 152px;
+        box-sizing: border-box;
+    }
+    .contact-info {
+        padding-left: var(--padding-53xl);
+        padding-right: var(--padding-52xl);
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 750px) {
+    .frame-parent1 {
+        flex-wrap: wrap;
+    }
+    .our-room {
+        font-size: var(--font-size-32xl);
+    }
+    .contact-email-section {
+        padding-bottom: var(--padding-88xl);
+        box-sizing: border-box;
+    }
+    .standard-room1 {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent2 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .deluxe-room {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent3 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .family-room {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent7 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .seaside-view-room {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent10 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .treetop-view-room {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent11 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .camping-room {
+        font-size: var(--font-size-7xl);
+    }
+    .frame-parent15 {
+        padding-bottom: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+    .framegroup {
+        gap: 60px 35.05px;
+    }
+    .contact-info {
+        padding-top: var(--padding-50xl);
+        padding-bottom: var(--padding-51xl);
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 450px) {
+    .f-r-a-m-e-a {
+        flex-wrap: wrap;
+        gap: 0 35px;
+    }
+    .address-block {
+        gap: 0 50px;
+    }
+    .our-room {
+        font-size: var(--font-size-19xl);
+    }
+    .home-rooms-container {
+        font-size: var(--font-size-lgi);
+    }
+    .roomimagecontainer {
+        padding-top: var(--padding-81xl);
+        padding-bottom: var(--padding-80xl);
+        box-sizing: border-box;
+    }
+    .rm2001,
+    .standard-room1 {
+        font-size: var(--font-size-lgi);
+    }
+    .size-group {
+        flex: 1;
+    }
+    .roomdetails {
+        flex-wrap: wrap;
+    }
+    .roomdetails-parent {
+        gap: 35px 0;
+    }
+    .deluxe-room,
+    .rm350 {
+        font-size: var(--font-size-lgi);
+    }
+    .size-container {
+        flex: 1;
+    }
+    .frame-parent6 {
+        flex-wrap: wrap;
+    }
+    .frame-parent5 {
+        gap: 35px 0;
+    }
+    .family-room,
+    .rm450 {
+        font-size: var(--font-size-lgi);
+    }
+    .size-parent1 {
+        flex: 1;
+    }
+    .frame-parent9 {
+        flex-wrap: wrap;
+    }
+    .floor-plan-preview {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+    .rm340,
+    .seaside-view-room {
+        font-size: var(--font-size-lgi);
+    }
+    .capacitylabel {
+        flex: 1;
+    }
+    .sizelabel {
+        flex-wrap: wrap;
+    }
+    .campingroom-parent {
+        gap: 35px 0;
+    }
+    .rm3401,
+    .treetop-view-room {
+        font-size: var(--font-size-lgi);
+    }
+    .size-parent2 {
+        flex: 1;
+    }
+    .frame-parent14 {
+        flex-wrap: wrap;
+    }
+    .frame-parent12 {
+        gap: 35px 0;
+    }
+    .camping-room,
+    .rm3501 {
+        font-size: var(--font-size-lgi);
+    }
+    .bed-type-label {
+        flex: 1;
+    }
+    .services-label {
+        flex-wrap: wrap;
+    }
+    .frame-parent16 {
+        gap: 35px 0;
+    }
+    .framegroup {
+        padding-bottom: var(--padding-80xl);
+        box-sizing: border-box;
+    }
+    .contacts-and-email {
+        gap: 49px 0;
+    }
+    .info-email-address,
+    .infosierragmailcom3 {
+        font-size: var(--font-size-base);
+    }
+    .vector-frames {
+        gap: 40px 0;
+    }
+    .no-1-ucsi1 {
+        font-size: var(--font-size-base);
+    }
+    .contact-info {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}

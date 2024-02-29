@@ -14,4 +14,18 @@ use App\Http\Controllers\HotelController;
 |
 */
 
-Route::get('/', [HotelController::class, 'index']);
+Route::get('/', function() {
+    return view('welcome');
+});
+
+Route::get('/login', [HotelController::class, 'login'])->name('login');
+Route::post('/login', [HotelController::class, 'loginPost'])->name('login');
+
+Route::get('/register', [HotelController::class, 'register'])->name('register');
+Route::post('/register', [HotelController::class, 'registerPost'])->name('register');
+
+Route::get('/home', [HotelController::class, 'index'])->name('home');
+Route::delete('/logout', [HotelController::class, 'logout'])->name('logout');
+
+Route::get('/rooms', [HotelController::class, 'rooms'])->name('rooms');
+

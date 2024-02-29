@@ -67,21 +67,7 @@
     gap: var(--gap-xl);
     max-width: 100%;
 }
-.sierra-hotel-logo2 {
-    position: relative;
-    font-weight: 500;
-}
-.s-i-e-r-r-a-logo {
-    background-color: var(--color-olivedrab);
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
-        var(--padding-20xl);
-    white-space: nowrap;
-}
+
 .home2,
 .rooms2 {
     position: relative;

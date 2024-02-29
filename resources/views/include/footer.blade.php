@@ -2,9 +2,9 @@
     <div class="address-box-child"></div>
     <div class="address-box-inner">
       <div class="frame-parent20">
-        <button class="sierra-hotel-logo-container">
+        <div class="sierra-hotel-logo-container">
           <div class="sierra-hotel-logo5">SIERRA HOTEL LOGO</div>
-        </button>
+        </div>
         <div class="frame-header">
           <div class="follow-us3">Follow Us</div>
           <div class="social-media-icons-follow">

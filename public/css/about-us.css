@@ -90,8 +90,7 @@
   }
   .contact-us-now-button:hover,
   .email-frame:hover,
-  .home-room-about-us-contact-fra:hover,
-  .sierra-hotel-logo-container:hover {
+  .home-room-about-us-contact-fra:hover {
     background-color: var(--color-forestgreen);
   }
   .home4,
@@ -732,7 +731,6 @@
     text-align: center;
   }
   .sierra-hotel-logo-container {
-    cursor: pointer;
     border: 0;
     padding: var(--padding-3xs) var(--padding-21xl) var(--padding-4xs)
       var(--padding-20xl);

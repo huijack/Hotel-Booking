@@ -1,6 +1,6 @@
 .glow-centre-icon {
-    height: 800px;
-    width: 840px;
+    height: 700px;
+    width: 50%;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
@@ -46,6 +46,7 @@
     height: 50px;
     border-radius: var(--br-base);
     min-width: 250px;
+    padding: 5px 15px;
 }
 .username-input {
     align-self: stretch;
@@ -114,10 +115,14 @@
 .i-dont-have {
     position: relative;
     font-size: var(--font-size-sm);
-    text-decoration: underline;
     font-family: var(--font-work-sans);
     color: var(--color-black);
     text-align: left;
+}
+
+.i-dont-have:hover {
+    text-decoration: underline;
+    color: #000;
 }
 .checkbox-frame {
     align-self: stretch;
@@ -198,6 +203,11 @@
     align-items: center;
     gap: 0 150px;
     letter-spacing: normal;
+}
+
+.login-container {
+    width: 50%;
+    display: flex;
 }
 @media screen and (max-width: 1425px) {
     .glow-centre-icon,

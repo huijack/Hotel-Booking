@@ -6,62 +6,55 @@
     <body>
         <div class="home">
         <section class="frame-parent">
-            {{-- <div class="day-label-parent">
+            <div class="day-label-parent">
             <div class="day-label">
                 <div class="person-info">
-                <div class="telephonefill">
-                    <img
-                    class="wifi-television-icon"
-                    loading="eager"
-                    alt=""
-                    src="{{ asset('images/vector.svg')}}"
-                    />
-                </div>
-                <div class="bathroom-icon">(603) 1234 5678</div>
+                <a class="top-link" href="#">
+                    <div class="telephonefill">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="bathroom-icon">(603) 1234 5678</div>
+                </a>
                 </div>
                 <div class="testimonials-section">
-                <img
-                    class="mailbox-icon"
-                    loading="eager"
-                    alt=""
-                    src="{{ asset('images/mailbox.svg') }}"
-                />
-
-                <div class="infosierragmailcom">info.sierra@gmail.com</div>
+                <a class="top-link" href="#">
+                    <i class="fa-regular fa-envelope"></i>
+                    <div class="infosierragmailcom">info.sierra@gmail.com</div>
+                </a>
                 </div>
             </div>
             <div class="log-in">
-                <a href="#">
+                <a href="{{ url('login') }}">
                     Login
                 </a>
                 <span>|</span>
-                <a href="#">
+                <a href="{{ url('register') }}">
                     Register
                 </a>
             </div>
-            </div> --}}
+            </div>
             <header class="infosierr-email">
-                <button class="address-section">
-                <div class="sierra-hotel-logo">SIERRA HOTEL LOGO</div>
-            </button>
+                <div class="s-i-e-r-r-a-logo">
+                    <div class="sierra-hotel-logo2">SIERRA HOTEL LOGO</div>
+                </div>
             <div class="follow-us">
                 <div class="home1">
-                    <a href="#">
+                    <a href="#" class="active">
                         Hotel
                     </a>
                 </div>
                 <div class="rooms">
-                    <a href="#">
+                    <a href="{{ url('login') }}">
                         Rooms
                     </a>
                 </div>
                 <div class="about-us">
-                    <a href="#">
+                    <a href="{{ url('login') }}">
                         About Us
                     </a>
                 </div>
                 <div class="contact">
-                    <a href="#">
+                    <a href="{{ url('login') }}">
                         Contact
                     </a>
                 </div>
@@ -69,9 +62,13 @@
             <div class="search"></div>
             <div class="next-button">
 
-                <button class="contact-parent">
-                    <div class="book-now">BOOK NOW</div>
-                </button>
+                <a href="{{ url('login') }}">
+                    <button class="contact-parent">
+                        <div class="book-now">
+                            BOOK NOW
+                        </div>
+                    </button>
+                </a>
             </div>
             </header>
         </section>
@@ -85,13 +82,21 @@
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="{{ asset('images/Rectangle 2.png') }}" alt="First slide">
                         <div class="carousel-caption d-none d-md-flex carousel-caption-sierra">
-                            aaaaa
+                            <p>HOTEL & RESORT</p>
+                            <div class="mb-2"></div>
+                            <h2>WELCOME TO SIERRA HOTEL</h2>
+                            <div class="mb-5"></div>
+                            <a href="">
+                                <button class="bed-services-frame">
+                                    <b class="discover-now">Discover Now</b>
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="{{ asset('images/CarouselSierra2.png') }}" alt="Second slide">
                         <div class="carousel-caption d-none d-md-flex carousel-caption-sierra">
-                            bbbb
+                            <h2>"THE BEST RESORT OFFERED IN MALAYSIA"</h2>
                         </div>
                     </div>
 
@@ -110,66 +115,78 @@
             <form class="bathroom-frame">
             <div class="bathroom-frame-child"></div>
             <div class="check-in-parent">
-                <div class="check-in">Check In</div>
-                <div class="rectangle-parent">
-                <div class="frame-child"></div>
-                <div class="ddmmyyyy">dd/mm/yyyy</div>
-                <img class="vector-icon" alt="" src="./public/vector-2.svg" />
+                <div class="form-group">
+                    <label for="date-check-in" class="col-form-label check-out p-0">Check In</label>
+                    <div class="input-group date" id="datepicker">
+                        <input type="text" class="rectangle-parent form-control" id="date-check-in" required>
+                        <div class="frame-child"></div>
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+
+                    </div>
                 </div>
             </div>
-            <div class="contacts-email-frame">
-                <div class="infosierr-frame">
-                <div class="check-out">Check Out</div>
-                <div class="rectangle-group">
-                    <div class="frame-item"></div>
-                    <div class="ddmmyyyy1">dd/mm/yyyy</div>
-                    <img
-                    class="person-frame-icon"
-                    alt=""
-                    src="./public/vector-2.svg"
-                    />
+            <div class="check-in-parent">
+                <div class="form-group">
+                    <label for="date-check-out" class="col-form-label check-out p-0">Check Out</label>
+                    <div class="input-group date" id="datepicker2">
+                        <input type="text" class="rectangle-parent form-control" id="date-check-out" required>
+                        <div class="frame-child"></div>
+                        <span class="input-group-append">
+                            <span class="input-group-text bg-white">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                    </div>
                 </div>
-                </div>
-                <div class="infosierr-frame1">
-                <div class="room">Room</div>
-                <div class="rectangle-container">
-                    <div class="frame-inner"></div>
-                    <div class="div">01</div>
-                    <img
-                    class="arrowdownshort-icon"
-                    alt=""
-                    src="./public/arrowdownshort.svg"
-                    />
-                </div>
+            </div>
+            <div class="room-parent">
+                <div class="form-group">
+                    <label for="room-form" class="col-form-label room p-0">Room</label>
+                    <select name="room" class="group-div form-control" id="room-form" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
                 </div>
             </div>
             <div class="adult-parent">
-                <div class="adult">Adult</div>
-                <div class="group-div">
-                <div class="rectangle-div"></div>
-                <div class="div1">01</div>
-                <img
-                    class="arrowdownshort-icon1"
-                    alt=""
-                    src="./public/arrowdownshort.svg"
-                />
+                <div class="form-group">
+                    <label for="adult-form" class="col-form-label adult p-0">Adult</label>
+                    <select name="adult" class="group-div form-control" id="adult-form" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
                 </div>
             </div>
             <div class="children-parent">
-                <div class="children">Children</div>
-                <div class="rectangle-parent1">
-                <div class="frame-child1"></div>
-                <div class="div2">01</div>
-                <img
-                    class="arrowdownshort-icon2"
-                    alt=""
-                    src="./public/arrowdownshort.svg"
-                />
+                <div class="form-group">
+                    <label for="children-form" class="col-form-label children p-0">Children</label>
+                    <select name="children" class="group-div form-control" id="children-form" required>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
                 </div>
             </div>
-            <button class="king-beds-frame2">
-                <div class="check-availability">Check Availability</div>
-            </button>
+                <a href="{{ url('login') }}">
+                    <button type="submit" class="king-beds-frame2">
+                        <div class="check-availability">Check Availability</div>
+                    </button>
+                </a>
             </form>
             <div class="bathroom-frame1">
             <div class="testimonials-frame">
@@ -190,7 +207,7 @@
                     </div>
                     <div class="read-more-parent">
                     <div class="read-more">
-                        <a href="#">
+                        <a href="{{ url('login') }}">
                             READ MORE
                         </a>
                     </div>
@@ -331,12 +348,21 @@
                 Contact (+60) 12-345 6789 to book directly or for advice
                 </div>
             </div>
-            <button class="footer-contact-frame">
-                <b class="contact-now">Contact Now</b>
-            </button>
+            <a href="{{ url('login') }}">
+                <button class="footer-contact-frame">
+                    <b class="contact-now">Contact Now</b>
+                </button>
+            </a>
             </div>
         </section>
         @include('include.footer')
+
+        <script type="text/javascript">
+            $(function() {
+                $('#datepicker').datepicker();
+                $('#datepicker2').datepicker();
+            })
+        </script>
     </div>
     </body>
 </html>

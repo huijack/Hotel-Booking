@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Rooms;
 use App\Models\Booking;
 use App\Models\UserAccount;
 use Illuminate\Http\Request;
@@ -11,7 +12,12 @@ use Illuminate\Support\Facades\Hash;
 class HotelController extends Controller
 {
     public function index() {
-        return view('home');
+        if (Auth::check()) {
+            return view('home');
+        }
+        else {
+            return view('welcome');
+        }
     }
 
     public function login() {
@@ -55,6 +61,38 @@ class HotelController extends Controller
     }
 
     public function rooms() {
-        return view('rooms');
+
+        if (!Auth::check()) {
+            return redirect()->route('login');
+        }
+        else {
+            $rooms = Rooms::all();
+            return view('rooms', compact('rooms'));
+        }
+    }
+
+    public function checkout(Request $request) {
+
+        $room_type = $request->get('room_type');
+        $dateCheckIn = $request->input('date_check_in');
+        $dateCheckOut = $request->input('date_check_out');
+        $roomQuantity = $request->input('room_quantity');
+        $adults = $request->input('adults');
+        $children = $request->input('children');
+
+        $room = Rooms::where('type', $room_type)->first();
+
+        if ($room) {
+            $numberOfDays = (strtotime($dateCheckOut) - strtotime($dateCheckIn)) / (60 * 60 * 24);
+
+            $totalPrice = $room->price * $numberOfDays * $roomQuantity;
+
+
+            return view('checkout', compact('room', 'dateCheckIn', 'dateCheckOut', 'roomQuantity', 'adults', 'children', 'totalPrice', 'numberOfDays'));
+        }
+        else {
+            return back()->with('error', 'Selected room type does not exist.');
+        }
+
     }
 }

@@ -62,7 +62,7 @@
             <div class="search"></div>
             <div class="next-button">
 
-                <a href="{{ url('login') }}">
+                <a class="remove-text-decoration" href="{{ url('login') }}">
                     <button class="contact-parent">
                         <div class="book-now">
                             BOOK NOW
@@ -86,7 +86,7 @@
                             <div class="mb-2"></div>
                             <h2>WELCOME TO SIERRA HOTEL</h2>
                             <div class="mb-5"></div>
-                            <a href="">
+                            <a class="remove-text-decoration" href="{{ url('login') }}">
                                 <button class="bed-services-frame">
                                     <b class="discover-now">Discover Now</b>
                                 </button>
@@ -112,7 +112,7 @@
             </div>
         </section>
         <section class="wifi-television-frame">
-            <form class="bathroom-frame">
+            {{-- <form class="bathroom-frame">
             <div class="bathroom-frame-child"></div>
             <div class="check-in-parent">
                 <div class="form-group">
@@ -182,12 +182,12 @@
                     </select>
                 </div>
             </div>
-                <a href="{{ url('login') }}">
+                <a class="remove-text-decoration" href="{{ url('login') }}">
                     <button type="submit" class="king-beds-frame2">
                         <div class="check-availability">Check Availability</div>
                     </button>
                 </a>
-            </form>
+            </form> --}}
             <div class="bathroom-frame1">
             <div class="testimonials-frame">
                 <div class="our-guests-love-us-frame">
@@ -207,7 +207,7 @@
                     </div>
                     <div class="read-more-parent">
                     <div class="read-more">
-                        <a href="{{ url('login') }}">
+                        <a class="remove-text-decoration read-more-hover" href="{{ url('login') }}">
                             READ MORE
                         </a>
                     </div>
@@ -286,9 +286,11 @@
                             </div>
                           </div>
                         </div>
-                        <button class="empty-frames">
-                          <b class="book-now1">Book Now</b>
-                        </button>
+                        <a href="#" class="remove-text-decoration"">
+                            <button class="empty-frames">
+                                <b class="book-now1">Book Now</b>
+                            </button>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -348,7 +350,7 @@
                 Contact (+60) 12-345 6789 to book directly or for advice
                 </div>
             </div>
-            <a href="{{ url('login') }}">
+            <a class="remove-text-decoration" href="{{ url('login') }}">
                 <button class="footer-contact-frame">
                     <b class="contact-now">Contact Now</b>
                 </button>

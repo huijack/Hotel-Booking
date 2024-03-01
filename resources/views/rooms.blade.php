@@ -59,11 +59,14 @@
             </div>
           <div class="search1"></div>
             <div class="next-button">
-                <button class="contact-parent">
-                    <div class="book-now">BOOK NOW</div>
-                </button>
+                <a href="#" class="remove-text-decoration read-more-hover">
+                    <button class="contact-parent">
+                        <div class="book-now">BOOK NOW</div>
+                    </button>
+                </a>
             </div>
         </header>
+
         <section class="contact-email-section">
           <div class="roomimagecontainer">
             <div class="roomimagecontainer-child"></div>
@@ -86,6 +89,16 @@
             </h3>
           </div>
         </section>
+
+        @if(session('error'))
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session('error') }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        @endif
+
         <section class="framegroup">
           <div class="frame-parent2">
             <img
@@ -122,8 +135,8 @@
                     </div>
                   </div>
                   <div class="room-selection">
-                    <button class="book-now-button1">
-                      <b class="book-now3">Book Now</b>
+                    <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Standard Room">
+                        <b class="book-now3">Book Now</b>
                     </button>
                   </div>
                 </div>
@@ -166,8 +179,8 @@
                     </div>
                   </div>
                   <div class="frame-wrapper1">
-                    <button class="book-now-wrapper">
-                      <b class="book-now4">Book Now</b>
+                    <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Deluxe Room">
+                        <b class="book-now4">Book Now</b>
                     </button>
                   </div>
                 </div>
@@ -209,8 +222,8 @@
                 </div>
               </div>
               <div class="floor-plan-preview">
-                <button class="book-now-container">
-                  <b class="book-now5">Book Now</b>
+                <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Family Room">
+                    <b class="book-now5">Book Now</b>
                 </button>
               </div>
             </div>
@@ -253,7 +266,7 @@
                   </div>
                 </div>
                 <div class="frame-wrapper3">
-                  <button class="book-now-frame">
+                  <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Seaside View Room">
                     <b class="book-now6">Book Now</b>
                   </button>
                 </div>
@@ -299,9 +312,9 @@
                   </div>
                 </div>
                 <div class="frame-wrapper6">
-                  <button class="book-now-wrapper1">
-                    <b class="book-now7">Book Now</b>
-                  </button>
+                    <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Treetop View Room">
+                        <b class="book-now7">Book Now</b>
+                    </button>
                 </div>
               </div>
             </div>
@@ -343,14 +356,125 @@
                 </div>
               </div>
               <div class="frame-wrapper7">
-                <button class="book-now-wrapper2">
-                  <b class="book-now8">Book Now</b>
+                <button type="button" class="book-now-frame" data-toggle="modal" data-target="#modalBookingRoom" data-room-type="Camping Room">
+                    <b class="book-now8">Book Now</b>
                 </button>
               </div>
             </div>
           </div>
         </section>
+
+        {{-- Modal --}}
+        <div class="modal fade" id="modalBookingRoom" tabindex="-1" aria-labelledby="modalBookingRoomLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="modalBookingRoomLabel">Book a Room</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <form id="checkoutForm" action="{{ route('checkout', ['room_type' => 'room_type']) }}" method="GET">
+                        @csrf
+                        <div class="modal-body" role="document">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="date-check-in">Check-in</label>
+                                        <div class="input-group date">
+                                            <input type="date" name="date_check_in" class="rectangle-parent form-control" id="date-check-in" required>
+                                            <div class="frame-child"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="date-check-out">Check-out</label>
+                                        <div class="input-group date">
+                                            <input type="date" name="date_check_out" class="rectangle-parent form-control" id="date-check-out" required>
+                                            <div class="frame-child1"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="room_type">Room Type</label>
+                                        <select name="room_type" id="room_type" class="rectangle-parent1 form-control" required>
+                                            <option value="Standard Room">Standard Room</option>
+                                            <option value="Deluxe Room">Deluxe Room</option>
+                                            <option value="Family Room">Family Room</option>
+                                            <option value="Seaside View Room">Seaside View Room</option>
+                                            <option value="Treetop View Room">Treetop View Room</option>
+                                            <option value="Camping Room">Camping Room</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="room-quantity">Room Quantity</label>
+                                        <select name="room_quantity" id="room-quantity" class="rectangle-parent1 form-control" required>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="adult">Adult</label>
+                                        <select name="adult" id="adult" class="rectangle-parent1 form-control" required>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="children">Children</label>
+                                        <select name="children" id="children" class="rectangle-parent1 form-control" required>
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-green">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
         @include('include.footer')
+
+        <script src="{{ asset('js/roompreselect.js') }}"></script>
+        {{-- <script>
+            $(document).ready(function() {
+                $('#room_type').on('change', function() {
+                    var selectedRoomType = $(this).val();
+                    $('#checkoutForm').attr('action', "{{ route('checkout', ['room_type' => '']) }}/" + selectedRoomType);
+                });
+            });
+        </script> --}}
     </div>
 </body>
 </html>

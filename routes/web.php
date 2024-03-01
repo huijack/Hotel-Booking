@@ -19,13 +19,14 @@ Route::get('/', function() {
 });
 
 Route::get('/login', [HotelController::class, 'login'])->name('login');
-Route::post('/login', [HotelController::class, 'loginPost'])->name('login');
+Route::post('/login', [HotelController::class, 'loginPost'])->name('login.post');
 
 Route::get('/register', [HotelController::class, 'register'])->name('register');
-Route::post('/register', [HotelController::class, 'registerPost'])->name('register');
+Route::post('/register', [HotelController::class, 'registerPost'])->name('register.post');
 
 Route::get('/home', [HotelController::class, 'index'])->name('home');
 Route::delete('/logout', [HotelController::class, 'logout'])->name('logout');
 
 Route::get('/rooms', [HotelController::class, 'rooms'])->name('rooms');
 
+Route::get('/checkout/{room_type}', [HotelController::class, 'checkout'])->name('checkout');

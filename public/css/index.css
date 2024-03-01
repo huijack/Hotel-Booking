@@ -775,7 +775,7 @@
 .wifi-television-frame {
     flex-direction: column;
     align-items: center;
-    padding: 0 var(--padding-xl) var(--padding-126xl);
+    padding: var(--padding-126xl) var(--padding-xl) var(--padding-126xl) ;
     gap: 144px 0;
     text-align: center;
     font-size: var(--font-size-5xl);

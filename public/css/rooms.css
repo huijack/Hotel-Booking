@@ -1507,6 +1507,21 @@
     letter-spacing: normal;
     text-align: center;
 }
+
+.btn-secondary {
+    border-radius: 100px;
+}
+
+.btn-green {
+    background-color: var(--color-olivedrab);
+    color: var(--color-white);
+    border-radius: 100px;
+}
+
+.btn-green:hover {
+    background-color: #4C8435;
+    color: var(--color-white);
+}
 @media screen and (max-width: 1275px) {
     .address-frame2 {
         min-height: auto;

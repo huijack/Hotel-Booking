@@ -54,10 +54,11 @@
             </div>
         </div>
         <div class="next-button">
-
-            <button class="contact-parent">
-                <div class="book-now">BOOK NOW</div>
-            </button>
+            <a href="#" class="remove-text-decoration read-more-hover">
+                <button class="contact-parent">
+                    <div class="book-now">BOOK NOW</div>
+                </button>
+            </a>
         </div>
         </header>
     </section>
@@ -75,7 +76,7 @@
                         <div class="mb-2"></div>
                         <h2>WELCOME TO SIERRA HOTEL</h2>
                         <div class="mb-5"></div>
-                        <a href="">
+                        <a class="remove-text-decoration read-more-hover" href="{{ url('aboutus') }}">
                             <button class="bed-services-frame">
                                 <b class="discover-now">Discover Now</b>
                             </button>
@@ -101,82 +102,6 @@
         </div>
     </section>
     <section class="wifi-television-frame">
-        <form class="bathroom-frame">
-        <div class="bathroom-frame-child"></div>
-        <div class="check-in-parent">
-            <div class="form-group">
-                <label for="date-check-in" class="col-form-label check-out p-0">Check In</label>
-                <div class="input-group date" id="datepicker">
-                    <input type="text" class="rectangle-parent form-control" id="date-check-in" required>
-                    <div class="frame-child"></div>
-                    <span class="input-group-append">
-                        <span class="input-group-text bg-white">
-                            <i class="fa fa-calendar"></i>
-                        </span>
-                    </span>
-
-                </div>
-            </div>
-        </div>
-        <div class="check-in-parent">
-            <div class="form-group">
-                <label for="date-check-out" class="col-form-label check-out p-0">Check Out</label>
-                <div class="input-group date" id="datepicker2">
-                    <input type="text" class="rectangle-parent form-control" id="date-check-out" required>
-                    <div class="frame-child"></div>
-                    <span class="input-group-append">
-                        <span class="input-group-text bg-white">
-                            <i class="fa fa-calendar"></i>
-                        </span>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="room-parent">
-            <div class="form-group">
-                <label for="room-form" class="col-form-label room p-0">Room</label>
-                <select name="room" class="group-div form-control" id="room-form" required>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-            </div>
-        </div>
-        <div class="adult-parent">
-            <div class="form-group">
-                <label for="adult-form" class="col-form-label adult p-0">Adult</label>
-                <select name="adult" class="group-div form-control" id="adult-form" required>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-            </div>
-        </div>
-        <div class="children-parent">
-            <div class="form-group">
-                <label for="children-form" class="col-form-label children p-0">Children</label>
-                <select name="children" class="group-div form-control" id="children-form" required>
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
-            </div>
-        </div>
-            <a href="{{ url('login') }}">
-                <button type="submit" class="king-beds-frame2">
-                    <div class="check-availability">Check Availability</div>
-                </button>
-            </a>
-        </form>
         <div class="bathroom-frame1">
         <div class="testimonials-frame">
             <div class="our-guests-love-us-frame">

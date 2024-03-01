@@ -14,16 +14,24 @@ class CreateBookingsTable extends Migration
     public function up()
     {
         Schema::create('bookings', function (Blueprint $table) {
-            $table->id();
+            $table->id('booking_id');
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->string('company_name')->nullable();
+            $table->string('country');
+            $table->string('street_address');
+            $table->string('postcode');
+            $table->string('province');
+            $table->string('phone_number');
             $table->string('email');
             $table->foreign('email')->references('email')->on('useraccounts')->onDelete('cascade');
             $table->date('start_date');
             $table->date('end_date');
             $table->string('room_type');
-            $table->string('requirements')->nullable();
+            $table->string('order_notes')->nullable();
+            $table->float('price', 8, 2);
             $table->integer('adults');
             $table->integer('children');
-            $table->string('requests')->nullable();
             $table->timestamps();
             $table->softDeletes();
 

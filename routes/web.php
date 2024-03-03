@@ -29,4 +29,5 @@ Route::delete('/logout', [HotelController::class, 'logout'])->name('logout');
 
 Route::get('/rooms', [HotelController::class, 'rooms'])->name('rooms');
 
-Route::get('/checkout/{room_type}', [HotelController::class, 'checkout'])->name('checkout');
+Route::get('/checkout', [HotelController::class, 'checkout'])->name('checkout');
+Route::post('/checkout', [HotelController::class, 'checkoutPost'])->name('checkout.post');

@@ -15,5 +15,5 @@ class Booking extends Model
 
     protected $dates = ['created_at', 'updated_at', 'deleted_at'];
     protected $primaryKey = 'booking_id';
-    protected $fillable = ['first_name', 'last_name','company_name', 'country', 'street_address', 'postcode', 'province', 'phone_number', 'email', 'start_date', 'end_date', 'room_type', 'order_notes', 'price', 'adults', 'children'];
+    protected $fillable = ['first_name', 'last_name','company_name', 'country', 'street_address', 'street_address2', 'postcode', 'province', 'phone_number', 'email', 'date_check_in', 'date_check_out', 'room_type', 'room_quantity', 'order_notes', 'price', 'adults', 'children'];
 }

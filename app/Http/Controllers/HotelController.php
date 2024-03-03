@@ -73,7 +73,7 @@ class HotelController extends Controller
 
     public function checkout(Request $request) {
 
-        $room_type = $request->get('room_type');
+        $room_type = $request->input('room_type');
         $dateCheckIn = $request->input('date_check_in');
         $dateCheckOut = $request->input('date_check_out');
         $roomQuantity = $request->input('room_quantity');
@@ -91,8 +91,36 @@ class HotelController extends Controller
             return view('checkout', compact('room', 'dateCheckIn', 'dateCheckOut', 'roomQuantity', 'adults', 'children', 'totalPrice', 'numberOfDays'));
         }
         else {
-            return back()->with('error', 'Selected room type does not exist.');
+            return back()->with('success', 'Your booking has been successfully completed.');
         }
 
+    }
+
+    public function checkoutPost (Request $request) {
+
+        $booking = new Booking();
+
+        $booking->first_name = $request->input('first-name');
+        $booking->last_name = $request->input('last-name');
+        $booking->company_name = $request->input('company-name');
+        $booking->country = $request->input('countries');
+        $booking->street_address = $request->input('address');
+        $booking->street_address2 = $request->input('address2');
+        $booking->postcode = $request->input('postcode');
+        $booking->province = $request->input('province');
+        $booking->phone_number = $request->input('phone');
+        $booking->email = $request->input('email');
+        $booking->room_type = $request->input('room_type');
+        $booking->date_check_in = $request->input('date_check_in');
+        $booking->date_check_out = $request->input('date_check_out');
+        $booking->room_quantity = $request->input('room_quantity');
+        $booking->order_notes = $request->input('additional-info');
+        $booking->adults = $request->input('adults');
+        $booking->children = $request->input('children');
+        $booking->price = $request->input('total_price');
+
+        $booking->save();
+
+        return redirect()->route('checkout')->with('success', 'Your booking has been successfully completed');
     }
 }

@@ -66,9 +66,20 @@
                     </a>
                 </div>
           </div>
-        <form action="" method="POST">
+        <form action="{{ route('checkout.post') }}" method="POST">
+            @csrf
 
+            @if (Session::has('success'))
+                <div class="alert alert-success alert-width" role="alert">
+                    {{ Session::get('success') }}
+                </div>
+            @endif
 
+            @if (Session::has('error'))
+                <div class="alert alert-danger alert-width" role="alert">
+                    {{ Session::get('error') }}
+                </div>
+            @endif
             <section class="billingdetailsframe">
             <div class="firstnameframe">
                 <div class="companynameframe">
@@ -105,7 +116,7 @@
                                     <label class="checkout-label" for="address">Address<span class="star-red">*</span></label>
                                     <div class="input-address">
                                         <input type="text" class="phone-email-group-big form-control" id="address" name="address" required>
-                                        <input type="text" class="phone-email-group-big form-control" id="address2" name="address" placeholder="Apartment, suite, unit etc. (optional)">
+                                        <input type="text" class="phone-email-group-big form-control" id="address2" name="address2" placeholder="Apartment, suite, unit etc. (optional)">
                                     </div>
                                 </div>
                             </div>
@@ -162,11 +173,18 @@
                                     <div class="room-reservation">Room Reservation</div>
                                     <div class="order-summary-frame">
                                     <div class="dates">Dates:
+                                        <input name="date_check_in" type="hidden" value="{{ $dateCheckIn }}">
+                                        <input name="date_check_out" type="hidden" value="{{ $dateCheckOut }}">
                                         <div class="date-check ml-1">
                                             {{ date('d/m/Y', strtotime($dateCheckIn)) }} - {{ date('d/m/Y', strtotime($dateCheckOut)) }} ({{ $numberOfDays }} days)
                                         </div>
                                     </div>
                                     <div class="accommodation">Accommodation:
+                                        <input name="room_type" type="hidden" value="{{ $room->type }}">
+                                        <input name="room_quantity" type="hidden" value="{{ $roomQuantity }}">
+                                        <input name="total_price" type="hidden" value="{{ $totalPrice }}">
+                                        <input name="adults" type="hidden" value="{{ $adults }}">
+                                        <input name="children" type="hidden" value="{{ $children }}">
                                         <div class="room-type">
                                             <div>
                                                 {{ $room->type }} * {{ $roomQuantity }}
@@ -203,7 +221,6 @@
 
           @include('include.footer')
       </div>
-
 
 
     {{-- <p>Selected Room Type: {{ $room->type }}</p>

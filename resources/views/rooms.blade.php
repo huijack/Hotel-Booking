@@ -374,8 +374,9 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                     </div>
-                    <form id="checkoutForm" action="{{ route('checkout', ['room_type' => 'room_type']) }}" method="GET">
+                    <form id="checkoutForm" action="{{ route('checkout') }}" method="GET">
                         @csrf
+
                         <div class="modal-body" role="document">
                             <div class="row">
                                 <div class="col-md-6">
@@ -428,8 +429,8 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="adult">Adult</label>
-                                        <select name="adult" id="adult" class="rectangle-parent1 form-control" required>
+                                        <label for="adults">Adults</label>
+                                        <select name="adults" id="adults" class="rectangle-parent1 form-control" required>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>

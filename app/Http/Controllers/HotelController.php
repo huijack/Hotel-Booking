@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Rooms;
 use App\Models\Booking;
+use App\Models\Enquiry;
 use App\Models\UserAccount;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -122,5 +123,33 @@ class HotelController extends Controller
         $booking->save();
 
         return redirect()->route('checkout')->with('success', 'Your booking has been successfully completed');
+    }
+
+    public function contact () {
+        if (Auth::check()) {
+            return view('contact');
+        }
+        else {
+            return redirect()->route('login');
+        }
+    }
+
+    public function contactPost(Request $request) {
+        try {
+            $enquiry = new Enquiry();
+
+            $enquiry->name = $request->input('name');
+            $enquiry->nric = $request->input('nric');
+            $enquiry->phone = $request->input('phone');
+            $enquiry->email = $request->input('email');
+            $enquiry->message = $request->input('message');
+
+            $enquiry->save();
+
+            return back()->with('success', 'Your enquiry has been successfully submitted');
+        }
+        catch (Exception $e) {
+            return back()->with('error', 'An error occurred while submitting your enquiry');
+        }
     }
 }

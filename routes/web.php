@@ -31,3 +31,6 @@ Route::get('/rooms', [HotelController::class, 'rooms'])->name('rooms');
 
 Route::get('/checkout', [HotelController::class, 'checkout'])->name('checkout');
 Route::post('/checkout', [HotelController::class, 'checkoutPost'])->name('checkout.post');
+
+Route::get('/contact', [HotelController::class, 'contact'])->name('contact');
+Route::post('/contact', [HotelController::class, 'contactPost'])->name('contact.post');

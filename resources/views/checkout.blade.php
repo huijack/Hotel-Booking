@@ -48,7 +48,7 @@
                         </a>
                     </div>
                     <div class="about-us">
-                        <a href="#">
+                        <a href="{{ url('aboutus') }}">
                             About Us
                         </a>
                     </div>
@@ -223,14 +223,6 @@
           @include('include.footer')
       </div>
 
-
-    {{-- <p>Selected Room Type: {{ $room->type }}</p>
-    <p>Selected Room Price: RM{{ $room->price }}</p>
-    <p>Date Checked In: {{ $dateCheckIn }}</p>
-    <p>Date Checked Out: {{ $dateCheckOut }}</p>
-    <p>Room Quantity: {{ $roomQuantity }}</p>
-    <p>Adults: {{ $adults }}</p>
-    <p>Children: {{ $children }}</p> --}}
     <script>
         // Fetch countries from REST Countries API
         fetch('https://restcountries.com/v3.1/all')

@@ -174,7 +174,7 @@
     box-sizing: border-box;
     gap: var(--gap-xl);
     font-size: var(--font-size-lg);
-    color: var(--color-gray-600);
+    color: #000000;
 }
 .main-f-r-a-m-e {
     flex-direction: column;

@@ -152,4 +152,8 @@ class HotelController extends Controller
             return back()->with('error', 'An error occurred while submitting your enquiry');
         }
     }
+
+    public function aboutUs() {
+        return view('aboutus');
+    }
 }

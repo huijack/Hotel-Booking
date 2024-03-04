@@ -140,7 +140,7 @@
     box-sizing: border-box;
     gap: var(--gap-xl);
     font-size: var(--font-size-lg);
-    color: var(--color-gray-600);
+    color: #000000;
     position: -webkit-sticky;
     position: sticky;
     height: auto;

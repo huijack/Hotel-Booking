@@ -43,7 +43,7 @@
                 </a>
             </div>
             <div class="about-us">
-                <a href="#">
+                <a href="{{ url('aboutus' )}}">
                     About Us
                 </a>
             </div>
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="next-button">
-            <a href="#" class="remove-text-decoration read-more-hover">
+            <a href="{{ url('rooms') }}" class="remove-text-decoration read-more-hover">
                 <button class="contact-parent">
                     <div class="book-now">BOOK NOW</div>
                 </button>
@@ -121,7 +121,7 @@
                 </div>
                 <div class="read-more-parent">
                 <div class="read-more">
-                    <a href="{{ url('login') }}">
+                    <a href="{{ url('aboutus') }}">
                         READ MORE
                     </a>
                 </div>
@@ -200,9 +200,11 @@
                         </div>
                       </div>
                     </div>
-                    <button class="empty-frames">
-                      <b class="book-now1">Book Now</b>
-                    </button>
+                    <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                        <button class="empty-frames">
+                            <b class="book-now1">Book Now</b>
+                        </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -262,7 +264,7 @@
             Contact (+60) 12-345 6789 to book directly or for advice
             </div>
         </div>
-        <a href="{{ url('login') }}">
+        <a class="remove-text-decoration" href="{{ url('contact') }}">
             <button class="footer-contact-frame">
                 <b class="contact-now">Contact Now</b>
             </button>

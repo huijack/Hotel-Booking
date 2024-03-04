@@ -48,7 +48,7 @@
                     </a>
                 </div>
                 <div class="about-us">
-                    <a href="#">
+                    <a href="{{ url('aboutus') }}">
                         About Us
                     </a>
                 </div>

@@ -53,7 +53,7 @@
                         </a>
                     </div>
                     <div class="contact">
-                        <a href="#">
+                        <a href="{{ url('contact') }}">
                             Contact
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                     </a>
                 </div>
           </div>
-        <form action="{{ route('checkout.post') }}" method="POST">
+        <form class="form-checkout-container" action="{{ route('checkout.post') }}" method="POST">
             @csrf
 
             @if (Session::has('success'))
@@ -80,6 +80,7 @@
                     {{ Session::get('error') }}
                 </div>
             @endif
+
             <section class="billingdetailsframe">
             <div class="firstnameframe">
                 <div class="companynameframe">

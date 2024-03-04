@@ -1308,6 +1308,10 @@
     width: 100%;
 }
 
+.form-checkout-container {
+    width: 100%;
+}
+
 @media screen and (max-width: 1275px) {
     .billingdetailsframe {
         padding-right: var(--padding-11xl);

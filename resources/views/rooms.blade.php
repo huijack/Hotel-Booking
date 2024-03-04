@@ -52,7 +52,7 @@
                     </a>
                 </div>
                 <div class="contact">
-                    <a href="#">
+                    <a href="{{ url('contact') }}">
                         Contact
                     </a>
                 </div>

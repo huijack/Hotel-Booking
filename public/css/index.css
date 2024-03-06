@@ -1542,11 +1542,6 @@
     height: 650px;
 }
 
-button:focus,
-button:active {
-    outline: none !important;
-    box-shadow: none;
-}
 
 #myBtn {
     display: none;

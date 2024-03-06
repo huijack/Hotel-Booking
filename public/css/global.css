@@ -437,6 +437,13 @@ body {
     align-items: flex-start;
 }
 
+
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
 #myBtn {
     display: none;
     position: fixed;

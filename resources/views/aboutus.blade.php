@@ -222,9 +222,12 @@
                 Contact (+60) 12-345 6789 to book directly or for advice
               </div>
             </div>
-            <button class="email-frame">
-              <b class="contact-now1">Contact Now</b>
-            </button>
+            <a class="remove-text-decoration" href="{{ url('contact') }}">
+                <button class="email-frame">
+                    <b class="contact-now1">Contact Now</b>
+                </button>
+            </a>
+
           </div>
         </section>
         @include('include.footer')

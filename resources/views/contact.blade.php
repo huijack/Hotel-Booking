@@ -59,7 +59,7 @@
                 </div>
             </div>
             <div class="next-button">
-                <a href="#" class="remove-text-decoration read-more-hover">
+                <a href="{{ url('rooms') }}" class="remove-text-decoration read-more-hover">
                     <button class="contact-parent">
                         <div class="book-now">BOOK NOW</div>
                     </button>

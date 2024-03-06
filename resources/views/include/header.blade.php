@@ -49,5 +49,8 @@
     {{-- CSS FILE --}}
     <link rel="stylesheet" href="{{ asset('css/global.css') }}">
 
+    {{-- OWL CAROUSEL --}}
+    <link rel="stylesheet" href="{{ asset('owlcarousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('owlcarousel/owl.theme.default.min.css') }}">
 
 </head>

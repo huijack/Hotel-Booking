@@ -1,3 +1,7 @@
+<button id="myBtn" title="Go to top" class="show" style="display: block;">
+    <i class="fa-solid fa-chevron-up"></i>
+</button>
+
 <footer class="address-box">
     <div class="address-box-child"></div>
     <div class="address-box-inner">

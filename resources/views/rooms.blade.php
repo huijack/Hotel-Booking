@@ -465,17 +465,12 @@
         </div>
 
 
+
         @include('include.footer')
 
+        <script src="{{ asset('js/backtotop.js') }}"></script>
         <script src="{{ asset('js/roompreselect.js') }}"></script>
-        {{-- <script>
-            $(document).ready(function() {
-                $('#room_type').on('change', function() {
-                    var selectedRoomType = $(this).val();
-                    $('#checkoutForm').attr('action', "{{ route('checkout', ['room_type' => '']) }}/" + selectedRoomType);
-                });
-            });
-        </script> --}}
+
     </div>
 </body>
 </html>

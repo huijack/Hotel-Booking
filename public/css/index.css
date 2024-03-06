@@ -106,9 +106,6 @@
     white-space: nowrap;
 }
 
-
-
-
 .search {
     overflow: hidden;
     flex-shrink: 0;
@@ -120,7 +117,6 @@
     width: 20px;
     position: relative;
 }
-
 
 .frame-parent,
 .infosierr-email {
@@ -775,7 +771,7 @@
 .wifi-television-frame {
     flex-direction: column;
     align-items: center;
-    padding: var(--padding-126xl) var(--padding-xl) var(--padding-126xl) ;
+    padding: var(--padding-126xl) var(--padding-xl) var(--padding-126xl);
     gap: 144px 0;
     text-align: center;
     font-size: var(--font-size-5xl);
@@ -793,8 +789,6 @@
     max-width: 100%;
 }
 .frame-child2 {
-    height: 50px;
-    width: 140px;
     background-color: var(--color-white);
 }
 .previous {
@@ -811,7 +805,16 @@
     display: flex;
     flex-direction: row;
 }
+
+.image-button {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 .frame-button {
+    position: absolute;
+    right: 50%;
     cursor: pointer;
     border: 0;
     padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
@@ -840,6 +843,7 @@
     font-weight: 500;
 }
 .standard-room {
+    text-align: left;
     margin: 0;
     align-self: stretch;
     font-size: inherit;
@@ -1038,6 +1042,8 @@
     z-index: 3;
 }
 .next-button2 {
+    left: 50%;
+    position: absolute;
     cursor: pointer;
     border: 0;
     padding: var(--padding-smi) var(--padding-smi) var(--padding-sm);
@@ -1060,23 +1066,32 @@
     width: 465px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 133px 0;
+    gap: 68px 0;
     min-width: 465px;
 }
 .header-frame1,
 .text-frame {
     flex-direction: row;
 }
+
+.content-container {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 .text-frame {
-    flex: 1;
+    flex: 0 0 100%;
     background-color: var(--color-gray-100);
     overflow: hidden;
     align-items: center;
     row-gap: 20px;
 }
 .header-frame1 {
+    overflow-x: auto;
+    white-space: nowrap;
     align-self: stretch;
-    align-items: flex-start;
+    align-items: end;
     padding: 0 0 var(--padding-126xl);
     box-sizing: border-box;
     text-align: center;
@@ -1114,6 +1129,7 @@
     gap: 20px 0;
 }
 .my-experience-at {
+    text-align: justify;
     align-self: stretch;
     position: relative;
 }
@@ -1123,17 +1139,18 @@
     position: relative;
 }
 .robert-downey1 {
+    text-align: center;
     flex: 1;
     position: relative;
     font-weight: 500;
 }
 .contact-us-form,
-.frame-div,
 .robert-downey {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
 }
+
 .contact-us-form {
     align-self: stretch;
     flex-direction: row;
@@ -1144,7 +1161,10 @@
     flex-direction: column;
 }
 .frame-div {
-    width: 149px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px 0;
     font-size: var(--font-size-lg);
     color: var(--color-black);
@@ -1512,7 +1532,7 @@
 .room-image-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: flex-start;
     gap: 20px 0;
     width: 50%;
@@ -1521,6 +1541,57 @@
 .image-height {
     height: 650px;
 }
+
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: -10px;
+    right: 100px;
+    z-index: 99px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.5s ease, background-color 0.3s ease;
+}
+
+#myBtn i {
+    transition: 0.3s;
+}
+
+#myBtn:hover {
+    background-color: #4c8435;
+}
+
+#myBtn.show {
+    opacity: 1;
+}
+
+.owl-nav {
+    display: none !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #4c8435;
+}
+
+.button-positioning {
+    display: flex;
+    align-items: flex-end;
+}
+
 @media screen and (max-width: 1275px) {
     .bathroom-frame {
         flex-wrap: wrap;

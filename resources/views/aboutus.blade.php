@@ -228,6 +228,9 @@
           </div>
         </section>
         @include('include.footer')
+
+        <script src="{{ asset('js/backtotop.js') }}"></script>
+        <script src="{{ asset('js/backtotop.js') }}"></script>
     </div>
 </body>
 </html>

@@ -112,82 +112,6 @@
             </div>
         </section>
         <section class="wifi-television-frame">
-            {{-- <form class="bathroom-frame">
-            <div class="bathroom-frame-child"></div>
-            <div class="check-in-parent">
-                <div class="form-group">
-                    <label for="date-check-in" class="col-form-label check-out p-0">Check In</label>
-                    <div class="input-group date" id="datepicker">
-                        <input type="text" class="rectangle-parent form-control" id="date-check-in" required>
-                        <div class="frame-child"></div>
-                        <span class="input-group-append">
-                            <span class="input-group-text bg-white">
-                                <i class="fa fa-calendar"></i>
-                            </span>
-                        </span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="check-in-parent">
-                <div class="form-group">
-                    <label for="date-check-out" class="col-form-label check-out p-0">Check Out</label>
-                    <div class="input-group date" id="datepicker2">
-                        <input type="text" class="rectangle-parent form-control" id="date-check-out" required>
-                        <div class="frame-child"></div>
-                        <span class="input-group-append">
-                            <span class="input-group-text bg-white">
-                                <i class="fa fa-calendar"></i>
-                            </span>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="room-parent">
-                <div class="form-group">
-                    <label for="room-form" class="col-form-label room p-0">Room</label>
-                    <select name="room" class="group-div form-control" id="room-form" required>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            <div class="adult-parent">
-                <div class="form-group">
-                    <label for="adult-form" class="col-form-label adult p-0">Adult</label>
-                    <select name="adult" class="group-div form-control" id="adult-form" required>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                    </select>
-                </div>
-            </div>
-            <div class="children-parent">
-                <div class="form-group">
-                    <label for="children-form" class="col-form-label children p-0">Children</label>
-                    <select name="children" class="group-div form-control" id="children-form" required>
-                        <option value="0">0</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                </div>
-            </div>
-                <a class="remove-text-decoration" href="{{ url('login') }}">
-                    <button type="submit" class="king-beds-frame2">
-                        <div class="check-availability">Check Availability</div>
-                    </button>
-                </a>
-            </form> --}}
             <div class="bathroom-frame1">
             <div class="testimonials-frame">
                 <div class="our-guests-love-us-frame">
@@ -236,18 +160,271 @@
             </div>
         </section>
         <section class="header-frame1">
-            <div class="text-frame">
+            <button class="frame-button" id="prevBtn">
+                <div class="frame-child2"></div>
+                <div class="previous">Previous</div>
+            </button>
+            <button class="next-button2" id="nextBtn">
+                <div class="next-button-child"></div>
+                <div class="next">Next</div>
+            </button>
+
+            <div class="content-container">
+                <div data-for-switch="standardRoom" class="text-frame">
+                    <div class="room-image-container">
+                        <div class="image-button">
+                            <img class="img-fluid float-left image-height" src="{{asset('images/image-1@2x.png')}}" alt="">
+
+                        </div>
+                    </div>
+                    <div class="group-parent">
+                        <div class="group">
+                          <div class="text">
+                            <div class="standard-room-parent">
+                              <h1 class="standard-room">Standard Room</h1>
+                              <div class="person-parent">
+                                <div class="person">
+                                  <div class="rm200">RM200</div>
+                                  <div class="size-parent">
+                                    <div class="size">
+                                      <ul class="size1">
+                                        <li>Size</li>
+                                      </ul>
+                                    </div>
+                                    <div class="capacity">
+                                      <ul class="capacity1">
+                                        <li>Capacity</li>
+                                      </ul>
+                                    </div>
+                                    <div class="bed">
+                                      <ul class="bed1">
+                                        <li>Bed</li>
+                                      </ul>
+                                    </div>
+                                    <div class="services">
+                                      <ul class="services1">
+                                        <li>Services</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="book-now-button">
+                                  <div class="next-button1">
+                                    <div class="day">/ Day</div>
+                                  </div>
+                                  <div class="ft-parent">
+                                    <div class="ft">: 30 ft</div>
+                                    <div class="person1">: 3-4 Person</div>
+                                    <div class="king-beds">: King Beds</div>
+                                    <div class="wifi-televion-bathroom">
+                                      : Wifi, Televion, Bathroom
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                                <button class="empty-frames">
+                                    <b class="book-now1">Book Now</b>
+                                </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div data-for-switch="deluxeRoom" class="text-frame">
+                    <div class="room-image-container">
+                        <img class="img-fluid float-left image-height" src="{{asset ('images/frame-261@2x.png') }}">
+                    </div>
+                    <div class="group-parent">
+                        <div class="group">
+                          <div class="text">
+                            <div class="standard-room-parent">
+                              <h1 class="standard-room">Deluxe Room</h1>
+                              <div class="person-parent">
+                                <div class="person">
+                                  <div class="rm200">RM350</div>
+                                  <div class="size-parent">
+                                    <div class="size">
+                                      <ul class="size1">
+                                        <li>Size</li>
+                                      </ul>
+                                    </div>
+                                    <div class="capacity">
+                                      <ul class="capacity1">
+                                        <li>Capacity</li>
+                                      </ul>
+                                    </div>
+                                    <div class="bed">
+                                      <ul class="bed1">
+                                        <li>Bed</li>
+                                      </ul>
+                                    </div>
+                                    <div class="services">
+                                      <ul class="services1">
+                                        <li>Services</li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="book-now-button">
+                                  <div class="next-button1">
+                                    <div class="day">/ Day</div>
+                                  </div>
+                                    <div class="ft-parent">
+                                        <div class="ft">: 45 ft</div>
+                                        <div class="person1">: 3-4 Person</div>
+                                        <div class="king-beds">: King Beds</div>
+                                        <div class="wifi-televion-bathroom">
+                                        : Wifi, Televion, Bathroom
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                                <button class="empty-frames">
+                                    <b class="book-now1">Book Now</b>
+                                </button>
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-for-switch="familyRoom" class="text-frame">
+                    <div class="room-image-container">
+                        <img class="img-fluid float-left image-height" src="{{asset ('images/frame-262@2x.png') }}">
+                    </div>
+                    <div class="group-parent">
+                        <div class="group">
+                        <div class="text">
+                            <div class="standard-room-parent">
+                            <h1 class="standard-room">Family Room</h1>
+                            <div class="person-parent">
+                                <div class="person">
+                                <div class="rm200">RM450</div>
+                                <div class="size-parent">
+                                    <div class="size">
+                                    <ul class="size1">
+                                        <li>Size</li>
+                                    </ul>
+                                    </div>
+                                    <div class="capacity">
+                                    <ul class="capacity1">
+                                        <li>Capacity</li>
+                                    </ul>
+                                    </div>
+                                    <div class="bed">
+                                    <ul class="bed1">
+                                        <li>Bed</li>
+                                    </ul>
+                                    </div>
+                                    <div class="services">
+                                    <ul class="services1">
+                                        <li>Services</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="book-now-button">
+                                <div class="next-button1">
+                                    <div class="day">/ Day</div>
+                                </div>
+                                    <div class="ft-parent">
+                                        <div class="ft">: 60 ft</div>
+                                        <div class="person1">: 5-6 Person</div>
+                                        <div class="king-beds">: Queen Beds</div>
+                                        <div class="wifi-televion-bathroom">
+                                        : Wifi, Televion, Bathroom
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                                <button class="empty-frames">
+                                    <b class="book-now1">Book Now</b>
+                                </button>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-for-switch="seasideViewRoom" class="text-frame">
+                    <div class="room-image-container">
+                        <img class="img-fluid float-left image-height" src="{{asset ('images/frame-260-1@2x.png') }}">
+                    </div>
+                    <div class="group-parent">
+                        <div class="group">
+                        <div class="text">
+                            <div class="standard-room-parent">
+                            <h1 class="standard-room">Seaside View Room</h1>
+                            <div class="person-parent">
+                                <div class="person">
+                                <div class="rm200">RM340</div>
+                                <div class="size-parent">
+                                    <div class="size">
+                                    <ul class="size1">
+                                        <li>Size</li>
+                                    </ul>
+                                    </div>
+                                    <div class="capacity">
+                                    <ul class="capacity1">
+                                        <li>Capacity</li>
+                                    </ul>
+                                    </div>
+                                    <div class="bed">
+                                    <ul class="bed1">
+                                        <li>Bed</li>
+                                    </ul>
+                                    </div>
+                                    <div class="services">
+                                    <ul class="services1">
+                                        <li>Services</li>
+                                    </ul>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="book-now-button">
+                                <div class="next-button1">
+                                    <div class="day">/ Day</div>
+                                </div>
+                                    <div class="ft-parent">
+                                        <div class="ft">: 30 ft</div>
+                                        <div class="person1">: 3-4 Person</div>
+                                        <div class="king-beds">: King Beds</div>
+                                        <div class="wifi-televion-bathroom">
+                                        : Wifi, Televion, Bathroom
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                                <button class="empty-frames">
+                                    <b class="book-now1">Book Now</b>
+                                </button>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div data-for-switch="treetopViewRoom" class="text-frame">
                 <div class="room-image-container">
-                    <img class="img-fluid float-left image-height" src="{{asset('images/image-1@2x.png')}}" alt="">
+                    <img class="img-fluid float-left image-height" src="{{asset ('images/frame-261-1@2x.png') }}">
                 </div>
                 <div class="group-parent">
                     <div class="group">
                       <div class="text">
                         <div class="standard-room-parent">
-                          <h1 class="standard-room">Standard Room</h1>
+                          <h1 class="standard-room">Treetop View Room</h1>
                           <div class="person-parent">
                             <div class="person">
-                              <div class="rm200">RM200</div>
+                              <div class="rm200">RM340</div>
                               <div class="size-parent">
                                 <div class="size">
                                   <ul class="size1">
@@ -275,26 +452,86 @@
                               <div class="next-button1">
                                 <div class="day">/ Day</div>
                               </div>
-                              <div class="ft-parent">
-                                <div class="ft">: 30 ft</div>
-                                <div class="person1">: 3-4 Person</div>
-                                <div class="king-beds">: King Beds</div>
-                                <div class="wifi-televion-bathroom">
-                                  : Wifi, Televion, Bathroom
+                                <div class="ft-parent">
+                                    <div class="ft">: 30 ft</div>
+                                    <div class="person1">: 3-4 Person</div>
+                                    <div class="king-beds">: King Beds</div>
+                                    <div class="wifi-televion-bathroom">
+                                    : Wifi, Televion, Bathroom
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
+                            </div>
                         </div>
-                        <a href="#" class="remove-text-decoration"">
+                        <a class="remove-text-decoration" href="{{ url('rooms') }}">
                             <button class="empty-frames">
                                 <b class="book-now1">Book Now</b>
                             </button>
                         </a>
                       </div>
                     </div>
-                  </div>
+                </div>
+            </div>
 
+            <div data-for-switch="campingRoom" class="text-frame">
+                <div class="room-image-container">
+                    <img class="img-fluid float-left image-height" src="{{asset ('images/frame-262-1@2x.png') }}">
+                </div>
+                <div class="group-parent">
+                    <div class="group">
+                      <div class="text">
+                        <div class="standard-room-parent">
+                          <h1 class="standard-room">Camping Room</h1>
+                          <div class="person-parent">
+                            <div class="person">
+                              <div class="rm200">RM350</div>
+                              <div class="size-parent">
+                                <div class="size">
+                                  <ul class="size1">
+                                    <li>Size</li>
+                                  </ul>
+                                </div>
+                                <div class="capacity">
+                                  <ul class="capacity1">
+                                    <li>Capacity</li>
+                                  </ul>
+                                </div>
+                                <div class="bed">
+                                  <ul class="bed1">
+                                    <li>Bed</li>
+                                  </ul>
+                                </div>
+                                <div class="services">
+                                  <ul class="services1">
+                                    <li>Services</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="book-now-button">
+                              <div class="next-button1">
+                                <div class="day">/ Day</div>
+                              </div>
+                                <div class="ft-parent">
+                                    <div class="ft">: 25 ft</div>
+                                    <div class="person1">: 3-4 Person</div>
+                                    <div class="king-beds">: Queen Beds</div>
+                                    <div class="wifi-televion-bathroom">
+                                    : Wifi, Televion, Bathroom
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <a class="remove-text-decoration" href="{{ url('rooms') }}">
+                            <button class="empty-frames">
+                                <b class="book-now1">Book Now</b>
+                            </button>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
         <section class="frame-group">
@@ -306,41 +543,62 @@
                 src="{{ asset('images/image-5@2x.png')}}"
             />
 
-            <div class="image">
-                <div class="frame-container">
-                <div class="testimonials-parent">
-                    <div class="testimonials">TESTIMONIALS</div>
-                    <h1 class="our-guests-love">Our Guests Love Us</h1>
-                </div>
-                <div class="robert-downey">
-                    <div class="my-experience-at">
-                    “My experience at the Sierra Hotel was exceptional and I
-                    highly recommend it to anyone looking for a comfortable and
-                    affordable stay with great services and facilities. I will
-                    definitely be returning on my next trip. Thank you, Sierra
-                    Hotel, for a wonderful stay!”
-                    </div>
-                    <div class="frame-div">
-                    <img
-                        class="group-icon"
-                        loading="eager"
-                        alt=""
-                        src="{{ asset('images/group-6.svg')}}"
-                    />
 
-                    <div class="contact-us-form">
-                        <div class="robert-downey1">Robert Downey</div>
+                <div class="image">
+                    <div class="frame-container">
+                        <div class="testimonials-parent">
+                            <div class="testimonials">TESTIMONIALS</div>
+                            <h1 class="our-guests-love">Our Guests Love Us</h1>
+                        </div>
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="robert-downey">
+                                    <div class="my-experience-at">
+                                    “My experience at the Sierra Hotel was exceptional and I
+                                    highly recommend it to anyone looking for a comfortable and
+                                    affordable stay with great services and facilities. I will
+                                    definitely be returning on my next trip. Thank you, Sierra
+                                    Hotel, for a wonderful stay!”
+                                    </div>
+                                    <div class="frame-div">
+                                    <img
+                                        class="group-icon"
+                                        loading="eager"
+                                        alt=""
+                                        src="{{ asset('images/group-6.svg')}}"
+                                    />
+
+                                    <div class="contact-us-form">
+                                        <div class="robert-downey1">Robert Downey</div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="robert-downey">
+                                    <div class="my-experience-at">
+                                    “I recently had the pleasure of staying at Sierra Hotel and I must say,
+                                    it exceeded all of my expectations. From the moment I arrived, I was impressed by the affordable price for such a high-quality hotel.
+                                    The accommodations were top-notch, with comfortable beds and all the necessary amenities. Thank you for an unforgettable stay!”
+                                    </div>
+                                    <div class="frame-div">
+                                    <img
+                                        class="group-icon"
+                                        loading="eager"
+                                        alt=""
+                                        src="{{ asset('images/group-6.svg')}}"
+                                    />
+
+                                    <div class="contact-us-form">
+                                        <div class="robert-downey1">Chris Evans</div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
                 </div>
-                <div class="frames-stack">
-                    <div class="frames-stack-child"></div>
-                    <div class="frames-stack-item"></div>
-                    <div class="frames-stack-inner"></div>
-                    <div class="ellipse-div"></div>
-                </div>
-                </div>
-            </div>
+
             </div>
             <div class="rectangle-parent2">
             <div class="frame-child3"></div>
@@ -359,12 +617,31 @@
         </section>
         @include('include.footer')
 
-        <script type="text/javascript">
-            $(function() {
-                $('#datepicker').datepicker();
-                $('#datepicker2').datepicker();
+        <script src="{{ asset('js/backtotop.js') }}"></script>
+        <script src="{{ asset('js/horizontalslider.js') }}"></script>
+        <script src="{{ asset('/owlcarousel/owl.carousel.min.js') }}"></script>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                margin:10,
+                nav:true,
+                autoplay:true,
+                autoplayTimeout:3000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:1
+                    },
+                    1000:{
+                        items:1
+                    }
+                }
             })
         </script>
+
     </div>
     </body>
 </html>

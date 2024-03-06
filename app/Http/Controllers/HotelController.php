@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ConfirmOrder;
 use App\Models\Rooms;
 use App\Models\Booking;
 use App\Models\Enquiry;
 use App\Models\UserAccount;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
@@ -58,7 +60,7 @@ class HotelController extends Controller
     public function logout() {
         Auth::logout();
 
-        return redirect() ->route('login');
+        return redirect('/')->with('success', 'You have been successfully logged out');
     }
 
     public function rooms() {
@@ -121,6 +123,8 @@ class HotelController extends Controller
         $booking->price = $request->input('total_price');
 
         $booking->save();
+
+        Mail::to($booking->email)->send(new ConfirmOrder($booking));
 
         return redirect()->route('checkout')->with('success', 'Your booking has been successfully completed');
     }

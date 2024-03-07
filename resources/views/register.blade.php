@@ -16,6 +16,11 @@
                             {{ Session::get('success') }}
                         </div>
                     @endif
+                    @if (Session::has('error'))
+                        <div class="alert alert-danger alert-width" role="alert">
+                            {{ Session::get('error') }}
+                        </div>
+                    @endif
                     <div class="frame-email form-group mb-0">
                         <label for="register-username" class="username1 mb-0">Username</label>
                         <input id="register-username" name="username" class="frame-email-child form-control" type="text" required/>

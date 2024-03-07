@@ -37,7 +37,17 @@ class HotelController extends Controller
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
 
+        if (UserAccount::where('username', $user->username)->exists()) {
+            return back()->with('error', 'Username already exists');
+        }
 
+        if (strlen($request->password) < 8) {
+            return back()->with('error', 'Password must be at least 8 characters long');
+        }
+
+        if (UserAccount::where('email', $user->email)->exists()) {
+            return back()->with('error', 'Email already exists');
+        }
         $user->save();
 
         return back()->with('success', 'You have been successfully registered');

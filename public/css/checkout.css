@@ -725,7 +725,10 @@
     position: relative;
     border-radius: var(--br-base);
     box-sizing: border-box;
-    width: 300px;
+}
+
+.name-group {
+    width: 50%;
 }
 
 .phone-email-group-big {
@@ -980,7 +983,6 @@
     min-width: 429px;
 }
 .companynameframe {
-    align-self: stretch;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -1049,20 +1051,23 @@
     gap: 30px 0;
 }
 .additional-information-parent,
-.billingdetailsframe,
-.firstnameframe {
+.billingdetailsframe {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     max-width: 100%;
 }
 .firstnameframe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 100%;
     flex: 1;
     flex-direction: column;
     gap: 53px 0;
 }
 .billingdetailsframe {
-    width: 1500px;
+    width: 100%;
     flex-direction: row;
     padding: 130px 100px;
     box-sizing: border-box;
@@ -1293,6 +1298,7 @@
 }
 
 .custom-gap {
+    gap: 30px;
     width: 100%;
     justify-content: space-between;
 }
@@ -1314,8 +1320,6 @@
 
 @media screen and (max-width: 1275px) {
     .billingdetailsframe {
-        padding-right: var(--padding-11xl);
-        padding-bottom: var(--padding-18xl);
         box-sizing: border-box;
     }
     .contacts-frame {

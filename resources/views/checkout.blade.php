@@ -88,12 +88,12 @@
                         <h1 class="billing-details">billing Details</h1>
                         <div class="form-gap">
                             <div class="d-flex custom-gap">
-                                <div class="form-group">
+                                <div class="form-group name-group">
                                     <label class="checkout-label" for="first-name">First Name<span class="star-red">*</span>
                                     </label>
                                     <input type="text" class="phone-email-group-child form-control" id="first-name" name="first-name" required>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group name-group">
                                     <label class="checkout-label" for="last-name">Last Name<span class="star-red">*</span></label>
                                     <input type="text" class="phone-email-group-child form-control" id="last-name" name="last-name" required>
                                 </div>
@@ -134,11 +134,11 @@
                                 </div>
                             </div>
                             <div class="d-flex custom-gap">
-                                <div class="form-group">
+                                <div class="form-group name-group">
                                     <label class="checkout-label" for="phone">Phone<span class="star-red">*</span></label>
                                     <input type="text" class="phone-email-group-child form-control" id="phone" name="phone" required>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group name-group">
                                     <label class="checkout-label" for="email">Email<span class="star-red">*</span></label>
                                     <input type="email" class="phone-email-group-child form-control" id="email" name="email" required>
                                 </div>

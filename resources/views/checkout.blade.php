@@ -177,7 +177,7 @@
                                         <input name="date_check_in" type="hidden" value="{{ $dateCheckIn }}">
                                         <input name="date_check_out" type="hidden" value="{{ $dateCheckOut }}">
                                         <div class="date-check ml-1">
-                                            {{ date('d/m/Y', strtotime($dateCheckIn)) }} - {{ date('d/m/Y', strtotime($dateCheckOut)) }} ({{ $numberOfDays }} days)
+                                            {{ date('d/m/Y', strtotime($dateCheckIn)) }} - {{ date('d/m/Y', strtotime($dateCheckOut)) }} ({{ $numberOfDays }}{{ $numberOfDays > 1 ? ' days' : ' day' }})
                                         </div>
                                     </div>
                                     <div class="accommodation">Accommodation:
